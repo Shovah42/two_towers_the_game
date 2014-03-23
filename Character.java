@@ -12,7 +12,6 @@ public class Character implements Visitable, Visitor {
 
 	
 	public Character(Species type,int mspeed, int dodge,int road) {
-		System.out.println("CALL class Character method Character()");		
 		maxSpeed=mspeed;
 		this.road=road;
 		this.dodge=dodge;
@@ -28,7 +27,6 @@ public class Character implements Visitable, Visitor {
 	 */
 	public void setSpeed(int speed) {
 		this.speed = speed;
-		System.out.println("CALL class Character method setSpeed(int Speed)");
 	}
 	public void move() {
 		// TODO - implement Character.move
@@ -45,7 +43,6 @@ public class Character implements Visitable, Visitor {
 	 */
 	public void setField(Field field) {
 		this.field = field;
-		System.out.println("CALL class Character method setField(Field field)");
 	}
 
 	public int getHealth() {
@@ -58,7 +55,6 @@ public class Character implements Visitable, Visitor {
 	 */
 	public void setHealth(int health) {
 		this.health = health;
-		System.out.println("CALL class Character method setHealth(int health)");
 	}
 
 	public void kill() {
@@ -89,9 +85,9 @@ public class Character implements Visitable, Visitor {
 		int smallIncrease=10;
 		int hugeIncrease=20;
 		double randNumber = Math.random();
-		d = randNumber * 100;
+		double d = randNumber * 100;
 		int randomInt = (int)d + 1;
-		//hogy biztosan lelõjuk 0 dode kell
+		//hogy biztosan lelï¿½juk 0 dode kell
 		if(randomInt>dodge){
 			if(c==Color.Red){
 				damage = baseDamage + smallIncrease;
@@ -106,9 +102,9 @@ public class Character implements Visitable, Visitor {
 			}else{
 				damage = baseDamage;
 			}
-			this.setHealth((this.getHealth - damage));
+			this.setHealth((this.getHealth() - damage));
 			if(this.getHealth()<=0){
-				System.out.println("Now execute is called, Character dies now done.");
+				System.out.println("CALL execute, Character dies now done.");
 				//this.getField().execute(this);
 			}
 		}

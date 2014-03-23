@@ -16,8 +16,7 @@ public class Application {
 		System.out.println("2: Build Trap");
 		System.out.println("3: Build Tower");
 		System.out.println("4: Tower Shoot");
-		System.out.println("5: Character Dies");
-		System.out.println("6: Create Character");					// ezt folytassatok, meg
+		System.out.println("5: Tower kills a Character");// ezt folytassatok, meg
 												// ertelemszeruen a switchcaset
 												// is
 		Skeleton s = new Skeleton();
@@ -39,10 +38,7 @@ public class Application {
 				s.towerShoot();
 				break;
 			case 5:
-				s.characterDies();
-				break;
-			case 6:
-				s.createCharacter();
+				s.towerKills();
 				break;
 			default:
 				System.out.println("Wrong number");
@@ -54,8 +50,7 @@ public class Application {
 			System.out.println("2: Build Trap");
 			System.out.println("3: Build Tower");
 			System.out.println("4: Tower Shoot");
-			System.out.println("5: Character Dies");
-			System.out.println("6: Create Character");
+			System.out.println("5: Tower kills a Character");
 			i = sc.nextInt();
 		}
 

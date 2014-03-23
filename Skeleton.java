@@ -1,4 +1,6 @@
 import java.awt.Point;
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class Skeleton {
@@ -25,24 +27,48 @@ public class Skeleton {
 		GameMaster.getInstance().addUpdatable(uFactory.createUpdatable(t, field));
 	}
 	public void towerShoot(){
-		Tower tower = new Tower();
-		Field towerfield = new Field();
-		Field roadfield = new Field();
-		Character ch = new Character();
-		Roadmanger rm = RoadManager();
+                Point pointTower = new Point();
+                pointTower.x=1;
+                pointTower.y=1;
+                
+                Point pointField1 = new Point();
+                pointField1.x=2;
+                pointField1.y=2;
+                Point pointField2 = new Point();
+                pointField2.x=1;
+                pointField2.y=2;
+                Field field1 = new Field();
+		Field field2 = new Field();
+		
+		Field towerField = new Field();
+                List<Field> map = new ArrayList<Field>();
+               
+                field1.setPosition(pointField1);
+                field2.setPosition(pointField2);
+                
+                towerField.setPosition(pointTower);
+                Tower tower = new Tower();
+		tower.setField(towerField);
+		towerField.setFree(false);
+		towerField.setRoad(false);
+		
+                field1.setFree(true);
+		field1.setRoad(false);
+                field2.setFree(true);
+		field2.setRoad(false);
+		tower.setColor(Color.Red);
+		Geometry geo = Geometry.getInstance();
+		geo.setMap(map);
+		
+                
 		tower.shoot();
 	}
-	public void characterDies(){
-		Color c = new Color();
-		Character ch = new Character();
+	public void towerKills(){
+		Color c =Color.Red;
+		Character ch = new Character(Species.Hobbit,0,0,0);
 		Field f = new Field();
+                ch.setField(f);
 		ch.hit(c);
 		
-	}
-	public void createCharacter(){
-		Field field=new Field();
-		int UpdatableId = 1;
-		UpdatableFactory uFactory=new UpdatableFactory();
-		GameMaster.getInstance().addUpdatable(uFactory.createUpdatable(UpdatableId, field));	
 	}
 }
