@@ -39,4 +39,10 @@ public class Skeleton {
 		ch.hit(c);
 		
 	}
+	public void createCharacter(){
+		Field field=new Field();
+		int UpdatableId = 1;
+		UpdatableFactory uFactory=new UpdatableFactory();
+		GameMaster.getInstance().addUpdatable(uFactory.createUpdatable(UpdatableId, field));	
+	}
 }

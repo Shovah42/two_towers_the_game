@@ -12,6 +12,7 @@ public class Character implements Visitable, Visitor {
 
 	
 	public Character(Species type,int mspeed, int dodge,int road) {
+		System.out.println("CALL class Character method Character()");		
 		maxSpeed=mspeed;
 		this.road=road;
 		this.dodge=dodge;
@@ -27,6 +28,7 @@ public class Character implements Visitable, Visitor {
 	 */
 	public void setSpeed(int speed) {
 		this.speed = speed;
+		System.out.println("CALL class Character method setSpeed(int Speed)");
 	}
 	public void move() {
 		// TODO - implement Character.move
@@ -43,6 +45,7 @@ public class Character implements Visitable, Visitor {
 	 */
 	public void setField(Field field) {
 		this.field = field;
+		System.out.println("CALL class Character method setField(Field field)");
 	}
 
 	public int getHealth() {
@@ -55,6 +58,7 @@ public class Character implements Visitable, Visitor {
 	 */
 	public void setHealth(int health) {
 		this.health = health;
+		System.out.println("CALL class Character method setHealth(int health)");
 	}
 
 	public void kill() {

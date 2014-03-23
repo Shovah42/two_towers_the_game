@@ -9,8 +9,10 @@ public class UpdatableFactory {
 	 * @param f
 	 */
 	public Updatable createUpdatable(int UpdatableId, Field f) {
-		// TODO - implement UpdatableFactory.createUpdatable
-		throw new UnsupportedOperationException();
+		System.out.println("CALL class UpdatableFactory method createUpdatable(int UpdatableId, Field f)");
+		Species type = Species.Human;
+		CharacterMaster cm = new CharacterMaster(f, type);
+		return cm;
 	}
 
 	/**
