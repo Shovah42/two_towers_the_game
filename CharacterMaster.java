@@ -15,4 +15,10 @@ public class CharacterMaster implements Updatable {
 		this.figure = figure;
 	}
 
+	@Override
+	public boolean update() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
 }

@@ -1,5 +1,8 @@
 public class UpdatableFactory {
 
+	public UpdatableFactory() {
+		System.out.println("CALL class UpdatableFactory method UpdatableFactory()");
+	}
 	/**
 	 * 
 	 * @param UpdatableId
@@ -16,8 +19,11 @@ public class UpdatableFactory {
 	 * @param f
 	 */
 	public Updatable createUpdatable(Tower t, Field f) {
-		// TODO - implement UpdatableFactory.createUpdatable
-		throw new UnsupportedOperationException();
+		System.out.println("CALL class Trap method createUpdatable(Tower t, Field f)");
+		t.setField(f);
+		f.addVisitable(t);
+		TowerMaster tm=new TowerMaster(t);
+		return tm;
 	}
 
 }

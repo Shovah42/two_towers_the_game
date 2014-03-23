@@ -1,16 +1,49 @@
+import java.util.Scanner;
+
 public class Application {
 
 	private int mana;
-	private InputHandler ihandler;
 
 	public void run() {
 		// TODO - implement Application.run
 		throw new UnsupportedOperationException();
 	}
 
-	public static void main() {
-		// TODO - implement Application.main
-		throw new UnsupportedOperationException();
+	public static void main(String[] args) {
+		System.out.println("Which test case do you want to run(press number)?");
+		System.out.println("0: Exit");
+		System.out.println("1: Upgrade Building");
+		System.out.println("2: Build Trap");
+		System.out.println("3: Build Tower"); // ezt folytassatok, meg
+												// ertelemszeruen a switchcaset
+												// is
+		Skeleton s = new Skeleton();
+
+		Scanner sc = new Scanner(System.in);
+		int i = sc.nextInt();
+		while (i != 0) {
+			switch (i) {
+			case 1:
+				s.upgradeBuilding();
+				break;
+			case 2:
+				s.buildTrap();
+				break;
+			case 3:
+				s.buildTower();
+				break;
+			default:
+				System.out.println("Wrong number");
+				break;
+			}
+			System.out.println();
+			System.out.println("0: Exit");
+			System.out.println("1: Upgrade Building");
+			System.out.println("2: Build Trap");
+			System.out.println("3: Build Tower");
+			i = sc.nextInt();
+		}
+
 	}
 
 	public void init() {

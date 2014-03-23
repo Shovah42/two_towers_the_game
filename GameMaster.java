@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class GameMaster {
 
 	private ArrayList<Updatable> updatableList;
@@ -14,12 +17,13 @@ public class GameMaster {
 	}
 
 	public static GameMaster getInstance() {
-		return this.instance;
+		if (instance == null)
+			instance = new GameMaster();
+		return instance;
 	}
 
 	private GameMaster() {
-		// TODO - implement GameMaster.GameMaster
-		throw new UnsupportedOperationException();
+		this.updatableList=new ArrayList<Updatable>();
 	}
 
 	/**
@@ -27,8 +31,8 @@ public class GameMaster {
 	 * @param u
 	 */
 	public void addUpdatable(Updatable u) {
-		// TODO - implement GameMaster.addUpdatable
-		throw new UnsupportedOperationException();
+		System.out.println("CALL class GameMaster method addUpdatable(Updatable u)");
+		this.updatableList.add(u);
 	}
 
 	public void startNextRound() {

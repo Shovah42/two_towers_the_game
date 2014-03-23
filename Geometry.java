@@ -1,3 +1,7 @@
+import java.awt.Point;
+import java.util.ArrayList;
+import java.util.List;
+
 public class Geometry implements RoadManager {
 
 	private static Geometry instance;
@@ -6,12 +10,13 @@ public class Geometry implements RoadManager {
 	private boolean hasSomeOneMadeItToMordor;
 
 	private Geometry() {
-		// TODO - implement Geometry.Geometry
-		throw new UnsupportedOperationException();
+		
 	}
 
 	public static Geometry getInstance() {
-		return this.instance;
+		if (instance == null)
+			instance = new Geometry();
+		return instance;
 	}
 
 	public boolean getHasSomeoneMadeItToMordor() {
@@ -39,9 +44,22 @@ public class Geometry implements RoadManager {
 	 * 
 	 * @param position
 	 */
-	public void getFieldOfCoordinate(Point position) {
-		// TODO - implement Geometry.getFieldOfCoordinate
-		throw new UnsupportedOperationException();
+	public Field getFieldOfCoordinate(Point position) {
+		System.out.println("CALL class Geometry method getFieldOfCoordinate(Point position)");
+		System.out.println("Return Field");
+		return null;
+	}
+
+	@Override
+	public List<Field> getRoadsInRange(Field f, int range) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Field getNextField(Field f, int roadId) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }

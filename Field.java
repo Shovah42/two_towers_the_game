@@ -1,3 +1,9 @@
+import java.awt.Point;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+import java.util.concurrent.ArrayBlockingQueue;
+
 public class Field {
 
 	private Point position;
@@ -6,8 +12,16 @@ public class Field {
 	private RoadManager roadmanager;
 	private List<Visitable> visitables;
 
+	public Field() {
+		this.visitables=new ArrayList<Visitable>();
+	}
 	public boolean isFree() {
 		return this.free;
+	}
+	public void build(){
+		System.out.println("CALL class Field method build()");
+		Trap t=new Trap();
+		this.addVisitable(t);
 	}
 
 	public boolean isRoad() {
@@ -63,14 +77,31 @@ public class Field {
 	public List<Visitable> getVisitables() {
 		return this.visitables;
 	}
-
+	public void upgradeBuilding(UpgradeVisitor uvisitor)
+	{
+		System.out.println("CALL class Field method upgradeBuilding(UpgradeVisitor uvisitor)");
+		System.out.println("Do you want to upgrade a tower of a trap? (tower/trap)");
+		Scanner sc=new Scanner(System.in);
+		String s=sc.nextLine();
+		while(!(s.equals("tower")||s.equals("trap")))
+		{
+			System.out.println("Do you want to upgrade a tower of a trap? (tower/trap)");
+			s=sc.nextLine();
+		}
+		if(s.equals("tower"))
+			this.visitables.add(new Tower());
+		else this.visitables.add(new Trap());
+		
+		this.getVisitables().get(0).accept(uvisitor);
+	}
 	/**
 	 * 
 	 * @param v
 	 */
 	public void addVisitable(Visitable v) {
 		// TODO - implement Field.addVisitable
-		throw new UnsupportedOperationException();
+		System.out.println("CALL class Field method addVisitable(Visitable v)");
+		this.visitables.add(v);
 	}
 
 }
