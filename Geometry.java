@@ -52,8 +52,46 @@ public class Geometry implements RoadManager {
 
 	@Override
 	public List<Field> getRoadsInRange(Field f, int range) {
-		// TODO Auto-generated method stub
-		return null;
+		System.out.println("CALL class Geometry method getRoadsInRange(Field f, int range)");
+		List<Field> fieldList = new ArrayList<Field>();
+		Point currentFieldPos = f.getPosition();
+		for(Field field : this.getMap()){
+			if(field.isRoad()){
+				Point tmpFieldPos = field.getPosition();
+				if ((currentFieldPos.x + range)== tmpFieldPos.x){
+					fieldList.add(field);
+					continue;
+				}else if((currentFieldPos.x - range)== tmpFieldPos.x){
+					fieldList.add(field);
+					continue;
+				}else if((currentFieldPos.y + range)== tmpFieldPos.y){
+					fieldList.add(field);
+					continue;
+				}else if((currentFieldPos.y - range)== tmpFieldPos.y){
+					fieldList.add(field);
+					continue;
+				}
+				if(range==2){
+					if ((currentFieldPos.x + range - 1)== tmpFieldPos.x){
+						fieldList.add(field);
+						continue;
+					}else if((currentFieldPos.x - range + 1)== tmpFieldPos.x){
+						fieldList.add(field);
+						continue;
+					}else if((currentFieldPos.y + range - 1)== tmpFieldPos.y){
+						fieldList.add(field);
+						continue;
+					}else if((currentFieldPos.y - range + 1)== tmpFieldPos.y){
+						fieldList.add(field);
+						continue;
+					}
+				}
+			}else{
+				continue;
+			}
+		}
+		System.out.println("Return Field List");
+		return fieldList;
 	}
 
 	@Override

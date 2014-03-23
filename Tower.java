@@ -6,13 +6,33 @@ public class Tower extends Building implements Visitor, Visitable {
 	private Field field;
 	private int speed;
 	private List<Character> shootableCharacters;
+	private int range;
 
 	public Tower() {
 		System.out.println("CALL class Tower method Tower()");
 	}
+	
+	public void addShootableCharacters(Character c){
+		shootableCharacters.add(c);
+	}
+	
 	public void shoot() {
-		// TODO - implement Tower.shoot
-		throw new UnsupportedOperationException();
+		System.out.println("CALL class Tower method shoot()");
+		List<Field> fieldList = new ArrayList<Field>();
+		fieldList = field.getNearbyRoads(range);
+		shootableCharacters.clear();
+		for (Field f : filedList){
+			List<Visitable> visitableList = new ArrayList<Visitable>();
+			visitableList = f.getVisitables();
+			for (Visitable vi : visitableList){
+				this.accept(vi);
+			}
+		}
+		
+		for(Character c : shootableCharacters){
+			System.out.println("Here comes the character hit method, shoot now done");
+			break;
+		}
 	}
 
 	public Field getField() {

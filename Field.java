@@ -61,8 +61,13 @@ public class Field {
 	 * @param i
 	 */
 	public List<Field> getNearByRoads(int i) {
-		// TODO - implement Field.getNearByRoads
-		throw new UnsupportedOperationException();
+		System.out.println("CALL class Field method getNearByRoads(int range)");
+		List<Field> fieldList = new ArrayList<Field>();
+		if(!this.isRoad() && !this.isFree()){
+			fieldList = rm.getRoadsInRange(this, i);
+		}
+		System.out.println("Return Field List");
+		return fieldList;
 	}
 
 	/**

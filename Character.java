@@ -79,8 +79,35 @@ public class Character implements Visitable, Visitor {
 	 * @param c
 	 */
 	public void hit(Color c) {
-		// TODO - implement Character.hit
-		throw new UnsupportedOperationException();
+		System.out.println("CALL class Character method hit(Color c)");
+		int damage=0;
+		int baseDamage=20;
+		int smallIncrease=10;
+		int hugeIncrease=20;
+		double randNumber = Math.random();
+		d = randNumber * 100;
+		int randomInt = (int)d + 1;
+		//hogy biztosan lelõjuk 0 dode kell
+		if(randomInt>dodge){
+			if(c==Color.Red){
+				damage = baseDamage + smallIncrease;
+			}else if (c==Color.Green && this.type==Species.Dwarf){
+				damage = baseDamage + hugeIncrease;
+			}else if (c==Color.Blue && this.type==Species.Human){
+				damage = baseDamage + hugeIncrease;
+			}else if (c==Color.Yellow && this.type==Species.Elf){
+				damage = baseDamage + hugeIncrease;
+			}else if (c==Color.Purple && this.type==Species.Hobbit){
+				damage = baseDamage + hugeIncrease;
+			}else{
+				damage = baseDamage;
+			}
+			this.setHealth((this.getHealth - damage));
+			if(this.getHealth()<=0){
+				System.out.println("Now execute is called, Character dies now done.");
+				//this.getField().execute(this);
+			}
+		}
 	}
 
 	@Override
@@ -97,7 +124,9 @@ public class Character implements Visitable, Visitor {
 
 	@Override
 	public void visit(Tower t) {
-		// TODO Auto-generated method stub
+		System.out.println("CALL class Character method visit(Tower t)");
+		System.out.println("Character added to shootableCharacters");
+		t.addShootableCharacters(this);
 		
 	}
 

@@ -24,4 +24,19 @@ public class Skeleton {
 		UpdatableFactory uFactory=new UpdatableFactory();
 		GameMaster.getInstance().addUpdatable(uFactory.createUpdatable(t, field));
 	}
+	public void towerShoot(){
+		Tower tower = new Tower();
+		Field towerfield = new Field();
+		Field roadfield = new Field();
+		Character ch = new Character();
+		Roadmanger rm = RoadManager();
+		tower.shoot();
+	}
+	public void characterDies(){
+		Color c = new Color();
+		Character ch = new Character();
+		Field f = new Field();
+		ch.hit(c);
+		
+	}
 }
