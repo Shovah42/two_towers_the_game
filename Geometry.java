@@ -1,4 +1,3 @@
-
 import java.awt.Point;
 import java.util.ArrayList;
 import java.util.List;
@@ -61,8 +60,9 @@ public class Geometry implements RoadManager {
 
     @Override
     public Field getNextField(Field f, int roadId) {
-        // TODO Auto-generated method stub
-        return null;
+        System.out.println("CALL class Geometry method getNextField(Field f, int roadId)");
+        System.out.println("Return Field");
+        return (new Field());
     }
 
 }
