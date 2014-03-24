@@ -40,12 +40,12 @@ public class Tower extends Building implements Visitor, Visitable {
         roadField.setFree(true);
         roadField.setRoad(true);
         Character ch = new Character(Species.Hobbit, 0, 0, 0);
-        System.out.println("An another init Call will run now (addVisitable)");
+        System.out.println("An another init Call will run now (addVisitable)"); 
+        System.out.println("Because getRoadsInRange() not implemented yet");
         roadField.addVisitable(ch);
         ch.setField(roadField);
         ch.setHealth(10);
-        roadField.getVisitables();
-        ch.accept(this);
+        roadField.getVisitables().get(0).accept(this);
         for (Character c : shootableCharacters) {
             System.out.println("CALLING the character hit method, shoot now done");
             //c.hit(Color.Red);
