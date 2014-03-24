@@ -40,6 +40,7 @@ public class Skeleton {
 		trap.effectCharacter(character);
 	}
 	public void towerShoot(){
+                System.out.println("Initialization");
                 Point pointTower = new Point();
                 pointTower.x=1;
                 pointTower.y=1;
@@ -70,17 +71,20 @@ public class Skeleton {
                 field2.setFree(true);
 		field2.setRoad(false);
 		tower.setColor(Color.Red);
+                
 		Geometry geo = Geometry.getInstance();
 		geo.setMap(map);
-		
+		System.out.println("Initialization end");
                 
 		tower.shoot();
 	}
 	public void towerKills(){
+                System.out.println("Initialization");
 		Color c =Color.Red;
 		Character ch = new Character(Species.Hobbit,0,0,0);
 		Field f = new Field();
                 ch.setField(f);
+                System.out.println("Initialization end");
 		ch.hit(c);
 		
 	}

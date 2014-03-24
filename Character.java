@@ -125,15 +125,17 @@ public class Character implements Visitable, Visitor {
 
     @Override
     public void visit(Tower t) {
-        System.out.println("CALL class Character method visit(Tower t)");
-        System.out.println("Character added to shootableCharacters");
-        t.addShootableCharacters(this);
+        // TODO Auto-generated method stub
 
     }
 
     @Override
     public void accept(Visitor v) {
 		// TODO Auto-generated method stub
+                System.out.println("CALL class Character method accept(Tower t)");
+        
+                v.visit(this);
+        
 
     }
 

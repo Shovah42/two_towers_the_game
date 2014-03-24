@@ -26,10 +26,6 @@ public class Tower extends Building implements Visitor, Visitable {
 
     }
 
-    public void addShootableCharacters(Character c) {
-        shootableCharacters.add(c);
-    }
-
     public void shoot() {
         System.out.println("CALL class Tower method shoot()");
         List<Field> fieldList = new ArrayList<Field>();
@@ -44,17 +40,15 @@ public class Tower extends Building implements Visitor, Visitable {
         roadField.setFree(true);
         roadField.setRoad(true);
         Character ch = new Character(Species.Hobbit, 0, 0, 0);
-        System.out.println("An init Call will run now (add visitable)");
+        System.out.println("An another init Call will run now (addVisitable)");
         roadField.addVisitable(ch);
         ch.setField(roadField);
         ch.setHealth(10);
-        List<Visitable> visitables = roadField.getVisitables();
-        for (Visitable vi : visitables) {
-            vi.accept(this);
-        }
-
+        roadField.getVisitables();
+        ch.accept(this);
         for (Character c : shootableCharacters) {
-            System.out.println("Here comes the character hit method, shoot now done");
+            System.out.println("CALLING the character hit method, shoot now done");
+            //c.hit(Color.Red);
             break;
         }
     }
@@ -106,13 +100,16 @@ public class Tower extends Building implements Visitor, Visitable {
     @Override
     public void visit(Character c) {
         // TODO Auto-generated method stub
-
+        System.out.println("CALL class Tower method visit(Character c)");
+        System.out.println("shootableCharacters.add(c)");
+        this.shootableCharacters.add(c);
+       
     }
 
     @Override
     public void visit(Tower t) {
         // TODO Auto-generated method stub
-
+        
     }
 
 }
