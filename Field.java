@@ -77,8 +77,7 @@ public class Field {
      * @param c
      */
     public void execute(Character c) {
-        // TODO - implement Field.execute
-        throw new UnsupportedOperationException();
+       System.out.println("CALL class Field method execute(Character c)");
     }
 
     public List<Visitable> getVisitables() {
