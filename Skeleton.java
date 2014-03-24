@@ -26,6 +26,19 @@ public class Skeleton {
 		UpdatableFactory uFactory=new UpdatableFactory();
 		GameMaster.getInstance().addUpdatable(uFactory.createUpdatable(t, field));
 	}
+	public void move(){
+		Character character=new Character(null, 0, 0, 0);
+        Field field1 = new Field();
+        Field field2 = new Field();
+        character.move();
+        field1.getNearByRoads(1);
+		field2=Geometry.getInstance().getNextField(field1, 1);
+		character.setField(field2);
+		field2.getVisitables();
+		Trap trap=new Trap();
+		trap.accept(character);
+		trap.effectCharacter(character);
+	}
 	public void towerShoot(){
                 Point pointTower = new Point();
                 pointTower.x=1;
