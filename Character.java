@@ -29,8 +29,9 @@ public class Character implements Visitable, Visitor {
 		this.speed = speed;
 	}
 	public void move() {
-		// TODO - implement Character.move
-		throw new UnsupportedOperationException();
+		System.out.println("CALL class Character method move");
+		
+		
 	}
 
 	public Field getField() {
@@ -42,6 +43,7 @@ public class Character implements Visitable, Visitor {
 	 * @param field
 	 */
 	public void setField(Field field) {
+		System.out.println("CALL class Character method setField(Field field)");
 		this.field = field;
 	}
 
@@ -87,7 +89,7 @@ public class Character implements Visitable, Visitor {
 		double randNumber = Math.random();
 		double d = randNumber * 100;
 		int randomInt = (int)d + 1;
-		//hogy biztosan lel�juk 0 dode kell
+		//hogy biztosan lelďż˝juk 0 dode kell
 		if(randomInt>dodge){
 			if(c==Color.Red){
 				damage = baseDamage + smallIncrease;
