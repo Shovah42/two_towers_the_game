@@ -9,7 +9,8 @@ public class Trap extends Building implements Visitable {
 	 */
 	public void effectCharacter(Character character) {
 		// TODO - implement Trap.effectCharacter
-		throw new UnsupportedOperationException();
+		System.out.println("CALL class Trap method effectCharacter(Character character)");
+		
 	}
 
 	@Override
