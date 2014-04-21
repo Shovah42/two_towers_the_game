@@ -1,4 +1,8 @@
 
+import java.util.ArrayList;
+import java.util.List;
+
+
 public class Character implements Visitable, Visitor {
 
     private Field field;
@@ -39,7 +43,7 @@ public class Character implements Visitable, Visitor {
             this.maxSpeed = 25;
             this.road = road;
             this.health = life;
-            this.dodge = 20;
+            this.dodge = 10;
             this.type = type;
         } else {
             //Humman
@@ -66,8 +70,23 @@ public class Character implements Visitable, Visitor {
     }
 
     public void move() {
- //       System.out.println("CALL class Character method move");
-
+ //     System.out.println("CALL class Character method move");
+        List<Field> fieldList = new ArrayList<Field>();
+        fieldList = this.getField().getNearByRoads(1);
+        if(fieldList.size() > 1){
+        // elagazashoz ertunk
+            this.getField().execute(this);
+            int i = (int)(Math.random()*2);
+            this.setField(fieldList.get(i));
+        }else{
+        // nem elagazas
+            this.getField().execute(this);
+            this.setField(fieldList.get(0));
+        }
+        // csapdaba lepes visitorminta segitsegevel
+        for (Visitable v : this.getField().getVisitables()) {
+                v.accept(this);
+        }
     }
 
     public Field getField() {
@@ -93,11 +112,6 @@ public class Character implements Visitable, Visitor {
      */
     public void setHealth(int health) {
         this.health = health;
-    }
-
-    public void kill() {
-        // TODO - implement Character.kill
-        throw new UnsupportedOperationException();
     }
 
     public Species getType() {
@@ -162,20 +176,18 @@ public class Character implements Visitable, Visitor {
 
     @Override
     public void visit(Trap t) {
-        // TODO Auto-generated method stub
-
+        // csapda hatása erre a karakterre
+        t.effectCharacter(this);
     }
 
     @Override
     public void visit(Character c) {
-        // TODO Auto-generated method stub
-
+        // ilyen eset nincs
     }
 
     @Override
     public void visit(Tower t) {
-        // TODO Auto-generated method stub
-
+        // ilyen eset nincs
     }
 
     @Override
