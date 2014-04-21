@@ -112,7 +112,7 @@ public class Skeleton {
         Geometry.getInstance().getFieldOfCoordinate(new Point());
         Field field = new Field();
         UpdatableFactory uFactory = new UpdatableFactory();
-        GameMaster.getInstance().addUpdatable(uFactory.createUpdatable(road, field));
+        GameMaster.getInstance().addUpdatable(uFactory.createUpdatable(Species.Elf,100,field,road));
         System.out.println("Test Done!");
     }
 }

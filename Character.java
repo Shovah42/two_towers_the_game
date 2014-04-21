@@ -144,7 +144,7 @@ public class Character implements Visitable, Visitor {
                 damage = baseDamage + hugeIncrease;
             } else if (c == Color.Black) {
                 // kettevago lovedek
-                spl.createSplited(type, this.getHealth() / 2, field, this.road);
+                spl.createSplitted(type, this.getHealth() / 2, field, this.road);
                 damage = this.getHealth() / 2;
             } else {
                 // minden mas esetben

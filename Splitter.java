@@ -1,5 +1,5 @@
 
 public interface Splitter {
 
-    Updatable createSplited(Species type, int life, Field field, int road);
+    Updatable createSplitted(Species type, int life, Field field, int road);
 }

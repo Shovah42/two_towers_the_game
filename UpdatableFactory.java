@@ -10,11 +10,10 @@ public class UpdatableFactory implements Splitter {
      * @param road
      * @param f
      */
-    public Updatable createUpdatable(int road, Field f) {
+    public Updatable createUpdatable(Species type, int life, Field f, int road) {
         System.out.println("CALL class UpdatableFactory method createUpdatable(int road, Field f)");
-        Character c = new Character(Species.Hobbit, 100, 20, road);
+        Character c = new Character(type, life, f, road);
         CharacterMaster cm = new CharacterMaster(c);
-        c.setField(f);
         f.addVisitable(c);
         return cm;
     }
@@ -33,11 +32,10 @@ public class UpdatableFactory implements Splitter {
     }
 
     @Override
-    public Updatable createSplited(Species type, int life, Field f, int road) {
+    public Updatable createSplitted(Species type, int life, Field f, int road) {
         Character c = new Character(type, life, f, road);
         f.addVisitable(c);
         CharacterMaster cm = new CharacterMaster(c);
-        f.addVisitable(c);
         return cm;
     }
 
