@@ -12,7 +12,6 @@ public class UpdatableFactory implements Splitter {
      */
     public Updatable createUpdatable(Species type, int life, Field f, int road) {
         Character c = new Character(type, life, f, road);
-        c.setId(IdCreator.getNextCharacterId());
         CharacterMaster cm = new CharacterMaster(c);
         f.addVisitable(c);
         return cm;
@@ -26,7 +25,6 @@ public class UpdatableFactory implements Splitter {
     public Updatable createUpdatable(Tower t, Field f) {
         //System.out.println("CALL class Trap method createUpdatable(Tower t, Field f)");
         t.setField(f);
-        t.setId(IdCreator.getNextTowerId());
         f.addVisitable(t);
         TowerMaster tm = new TowerMaster(t);
         return tm;
@@ -36,7 +34,6 @@ public class UpdatableFactory implements Splitter {
     public Updatable createSplitted(Species type, int life, Field f, int road) {
         Character c = new Character(type, life, f, road);
         f.addVisitable(c);
-        c.setId(IdCreator.getNextCharacterId());
         CharacterMaster cm = new CharacterMaster(c);
         return cm;
     }

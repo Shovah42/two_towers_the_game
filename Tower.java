@@ -23,11 +23,13 @@ public class Tower extends Building implements Visitor, Visitable {
     public void surroundWithFog(){
     	this.range=1;
     }
+    
     public Tower() {
         this.damage = 10;
         this.speed = 30;
-        this.range = 1;
+        this.range = 2;
         this.shootableCharacters = new ArrayList<Character>();
+        this.id = IdCreator.getNextTowerId();
     }
 
     public Tower(int damage, Field field, int speed, int range) {
@@ -36,6 +38,7 @@ public class Tower extends Building implements Visitor, Visitable {
         this.speed = speed;
         this.range = range;
         this.shootableCharacters = new ArrayList<Character>();
+        this.id = IdCreator.getNextTowerId();
         System.out.println("Successfully created a tower at "+this.field+" with speed: "+this.speed+".");
     }
 

@@ -23,32 +23,33 @@ public class Character implements Visitable, Visitor {
 
     public Character(Species type, int life, Field f, int road) {
         if (type == Species.Dwarf) {
-            this.maxSpeed = 20;
+            this.maxSpeed = 25;
             this.road = road;
             this.health = life;
             this.dodge = 0;
             this.type = type;
         } else if (type == Species.Elf) {
-            this.maxSpeed = 30;
+            this.maxSpeed = 15;
             this.road = road;
             this.health = life;
             this.field = f;
             this.dodge = 0;
             this.type = type;
         } else if (type == Species.Hobbit) {
-            this.maxSpeed = 20;
+            this.maxSpeed = 25;
             this.road = road;
             this.health = life;
             this.dodge = 20;
             this.type = type;
         } else {
             //Humman
-            this.maxSpeed = 25;
+            this.maxSpeed = 20;
             this.road = road;
             this.health = life;
             this.dodge = 0;
             this.type = type;
         }
+        this.id=IdCreator.getNextCharacterId();
         System.out.println("Successfully created a(n)"+this.type+" character at "+this.field+".");
     }
 
