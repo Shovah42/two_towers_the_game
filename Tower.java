@@ -10,12 +10,20 @@ public class Tower extends Building implements Visitor, Visitable {
     private int speed;
     private List<Character> shootableCharacters;
     private int range;
+    private String id;
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getId() {
+        return id;
+    }
 
     public void surroundWithFog(){
     	this.range=1;
     }
     public Tower() {
-        System.out.println("CALL class Tower method Tower()");
         this.damage = 10;
         this.speed = 30;
         this.range = 1;

@@ -65,7 +65,7 @@ public class Character implements Visitable, Visitor {
     }
 
     public void move() {
-        System.out.println("CALL class Character method move");
+ //       System.out.println("CALL class Character method move");
 
     }
 
@@ -78,7 +78,7 @@ public class Character implements Visitable, Visitor {
      * @param field
      */
     public void setField(Field field) {
-        System.out.println("CALL class Character method setField(Field field)");
+//        System.out.println("CALL class Character method setField(Field field)");
         this.field = field;
     }
 
