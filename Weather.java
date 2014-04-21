@@ -1,11 +1,16 @@
+import java.util.List;
+
 public class Weather implements Updatable, Visitor {
 
 	private int tickCount;
 	private int frequency;
+	List<String> fields;
 
-	public Weather(int frequency){
-		this.frequency=frequency;
+	public Weather(int frequency, List<String> fields) {
+		this.frequency = frequency;
+		this.fields = fields;
 	}
+
 	@Override
 	public void visit(Trap t) {
 		// TODO Auto-generated method stub
@@ -28,9 +33,11 @@ public class Weather implements Updatable, Visitor {
 		tickCount++;
 		if (tickCount >= frequency)
 			for (Field f : Geometry.getInstance().getMap()) {
-				for (Visitable v : f.getVisitables()) {
-					v.accept(this);
-				}
+				if (fields.contains(f.getId()))
+					for (Visitable v : f.getVisitables()) {
+
+						v.accept(this);
+					}
 			}
 		return false;
 	}

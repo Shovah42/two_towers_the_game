@@ -9,8 +9,8 @@ import java.util.List;
 
 public class Application {
 
-	private int mana;
-
+	private static int mana;
+	private static Color color;
 	// We don't need run yet, because we don't use time when testing
 	public void run() {
 
@@ -53,28 +53,61 @@ public class Application {
 	}
 
 	// Functions for testing
+	
 	private static void addFog(String[] temp) {
-		// TODO Auto-generated method stub
+		ArrayList<String> fields=new ArrayList<String>();
+		fields.add(temp[1]);
+		for (Field f : Geometry.getInstance().getMap()) {
+			if (f.getId().equals(temp[1]))
+				for (Visitable v : f.getVisitables()) {
+					v.accept(new Weather(1,fields));
+				}
+		}
 
 	}
 
 	private static void addStone(String[] temp) {
-		// TODO Auto-generated method stub
-
+		for (Field f : Geometry.getInstance().getMap()) {
+			if (f.getId().equals(temp[1]))
+				for (Visitable v : f.getVisitables()) {
+					v.accept(new UpgradeVisitor(color));
+				}
+		}
 	}
 
 	private static void useStone(String[] temp) {
-		// TODO Auto-generated method stub
+		color=Color.valueOf(temp[1]);
 
 	}
 
 	private static void addTrap(String[] temp) {
-		// TODO Auto-generated method stub
-
+		Field trapField = null;
+		for (Field f : Geometry.getInstance().getMap()) {
+			if (f.getId().equals(temp[1]))
+				trapField = f;
+		}
+		if (!trapField.isFree() || trapField.isRoad()) {
+			System.out.println("Not a valid field");
+		} else {
+			Trap t = new Trap();
+			trapField.getVisitables().add(t);
+		}
 	}
 
 	private static void addTower(String[] temp) {
-		// TODO Auto-generated method stub
+		Field towField = null;
+		for (Field f : Geometry.getInstance().getMap()) {
+			if (f.getId().equals(temp[1]))
+				towField = f;
+		}
+		if (!towField.isFree() || towField.isRoad()) {
+			System.out.println("Not a valid field");
+		} else {
+			Tower t = new Tower(10, towField, Integer.parseInt(temp[3]), 1);
+			Updatable u = new UpdatableFactory().createUpdatable(t, towField);
+			GameMaster.getInstance().addUpdatable(u);
+			towField.getVisitables().add(t);
+		}
 
 	}
 
@@ -90,18 +123,18 @@ public class Application {
 	}
 
 	private static void addChar(String[] temp) {
-		Species s = Species.valueOf(temp[0]);
+		Species s = Species.valueOf(temp[1]);
 		Field charField = null;
 		for (Field f : Geometry.getInstance().getMap()) {
-			if (f.getId().equals(temp[2]))
+			if (f.getId().equals(temp[3]))
 				charField = f;
 		}
 		if (!charField.isRoad())
 			System.out.println("Error: F1 is not a valid position.");
 		else {
-			Character ch = new Character(s, Integer.parseInt(temp[1]),
+			Character ch = new Character(s, Integer.parseInt(temp[2]),
 					charField, 1);
-			ch.setSpeed(Integer.parseInt(temp[4]));
+			ch.setSpeed(Integer.parseInt(temp[5]));
 			charField.addVisitable(ch);
 			Updatable u = new CharacterMaster(ch);
 			GameMaster.getInstance().addUpdatable(u);
@@ -110,9 +143,10 @@ public class Application {
 
 	private static void addRoad(String[] temp) {
 		for (Field f : Geometry.getInstance().getMap()) {
-			if(f.getId().equals(temp[0])){
+			if (f.getId().equals(temp[1])) {
 				f.setRoad(true);
-				Geometry.getInstance().getRoads().get(Integer.parseInt(temp[1])).add(f);
+				Geometry.getInstance().getRoads()
+						.get(Integer.parseInt(temp[2])).add(f);
 			}
 		}
 
@@ -123,18 +157,12 @@ public class Application {
 		throw new UnsupportedOperationException();
 	}
 
-	public int getMana() {
-		return this.mana;
+	public static int getMana() {
+		return mana;
 	}
 
-	/**
-	 * 
-	 * @param mana
-	 */
-	public void setMana(int mana) {
-		this.mana = mana;
-	}
-
+	
+	
 	private static void createGameField(String[] args) {
 		String[] fieldsize = args[1].split(":");
 		ArrayList<Field> map = new ArrayList<Field>();
