@@ -22,8 +22,7 @@ public class Geometry implements RoadManager {
     }
 
     public boolean getHasSomeoneMadeItToMordor() {
-        // TODO - implement Geometry.getHasSomeoneMadeItToMordor
-        throw new UnsupportedOperationException();
+        return this.hasSomeOneMadeItToMordor;
     }
 
     public List<Field>[] getRoads() {

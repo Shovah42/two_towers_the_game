@@ -23,12 +23,8 @@ public class TowerMaster implements Updatable {
 
     @Override
     public boolean update() {
-        int shootTrigger = 50;
-        if (tower.getColor().equals(Color.Pink)) {
-            shootTrigger = 30;
-        }
         tickCount++;
-        if (tickCount >= shootTrigger) {
+        if (tickCount >= tower.getSpeed()) {
             tickCount = 0;
             tower.shoot();
         }

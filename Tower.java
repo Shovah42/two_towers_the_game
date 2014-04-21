@@ -20,13 +20,12 @@ public class Tower extends Building implements Visitor, Visitable {
     }
 
     public Tower(int damage, Field field, int speed, int range) {
-        System.out.println("CALL class Tower method Tower()");
         this.damage = damage;
         this.field = field;
         this.speed = speed;
         this.range = range;
         this.shootableCharacters = new ArrayList<Character>();
-
+        System.out.println("Successfully created a tower at "+this.field+" with speed: "+this.speed+".");
     }
 
     public void shoot() {
@@ -41,12 +40,12 @@ public class Tower extends Building implements Visitor, Visitable {
                 v.accept(this);
             }
         }
-        boolean shooted = false;
+        boolean shot = false;
         // charakter kivalasztasa
         for (Character c : shootableCharacters) {
             // ha eddig nem lotunk egy karakterre se akkor lohetunk
-            if (!shooted) {
-                shooted = true;
+            if (!shot) {
+                shot = true;
                 // specialis kettevalaszto lovedek sorsolasa
                 double randNumber = Math.random();
                 double d = randNumber * 100;

@@ -47,6 +47,7 @@ public class Character implements Visitable, Visitor {
             this.dodge = 0;
             this.type = type;
         }
+        System.out.println("Successfully created a(n)"+this.type+" character at "+this.field+".");
     }
 
     public int getSpeed() {
