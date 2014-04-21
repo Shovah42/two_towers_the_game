@@ -53,9 +53,17 @@ public class Geometry implements RoadManager {
 
     @Override
     public List<Field> getRoadsInRange(Field f, int range) {
-        System.out.println("CALL class Geometry method getRoadsInRange(Field f, int range)");
-        System.out.println("Return Field List");
-        return null;
+        List<Field> fieldList = new ArrayList<Field>();
+        Point thisFieldPos = f.getPosition();
+        for(Field field : map){
+            Point pointTmp = field.getPosition();
+            if((thisFieldPos.x - range) <= pointTmp.x && pointTmp.x <= (thisFieldPos.x + range)){
+                if((thisFieldPos.y - range) <= pointTmp.y && pointTmp.y <= (thisFieldPos.y + range)){
+                    fieldList.add(field);
+                }
+            }
+        }
+        return fieldList;
     }
 
     @Override

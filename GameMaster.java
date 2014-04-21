@@ -10,6 +10,7 @@ public class GameMaster {
 	private int groupPopularity;
 	private boolean outOfCharacters;
 	private List<Field> starterFields;
+        
 
 	public void refreshUpdatables() {
 		// TODO - implement GameMaster.refreshUpdatables
@@ -51,5 +52,7 @@ public class GameMaster {
 	public void setStarterFields(List<Field> starterFields) {
 		this.starterFields = starterFields;
 	}
+        
+        
 
 }

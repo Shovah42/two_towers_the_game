@@ -3,6 +3,9 @@ public class CharacterMaster implements Updatable {
 	private Character figure;
 	private int tickCount;
 
+        public CharacterMaster(Character tm) {
+		this.figure=tm;
+	}
 	public Character getFigure() {
 		return this.figure;
 	}
@@ -20,5 +23,5 @@ public class CharacterMaster implements Updatable {
 		// TODO Auto-generated method stub
 		return false;
 	}
-
+        
 }

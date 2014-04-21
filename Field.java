@@ -63,12 +63,17 @@ public class Field {
     /**
      *
      * @param i
+     * @return 
      */
     public List<Field> getNearByRoads(int i) {
-        System.out.println("CALL class Field method getNearByRoads(int range)");
         List<Field> fieldList = new ArrayList<Field>();
-        fieldList = roadmanager.getRoadsInRange(this, i);
-        System.out.println("Return Field List");
+        Field field;
+        if(this.isRoad()){
+            field = roadmanager.getNextField(this, i);
+            fieldList.add(field);
+        }else{
+            fieldList = roadmanager.getRoadsInRange(this, i);
+        }
         return fieldList;
     }
 
@@ -77,7 +82,7 @@ public class Field {
      * @param c
      */
     public void execute(Character c) {
-       System.out.println("CALL class Field method execute(Character c)");
+       this.getVisitables().remove(c);
     }
 
     public List<Visitable> getVisitables() {

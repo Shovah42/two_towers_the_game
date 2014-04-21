@@ -1,4 +1,4 @@
-public class UpdatableFactory {
+public class UpdatableFactory implements Splitter{
 
 	public UpdatableFactory() {
 		System.out.println("CALL class UpdatableFactory method UpdatableFactory()");
@@ -25,5 +25,14 @@ public class UpdatableFactory {
 		TowerMaster tm=new TowerMaster(t);
 		return tm;
 	}
+        
+    @Override
+    public Updatable createSplited(Species type, int life, Field f, int road) {
+                Character c = new Character(type, life, f, road);
+		f.addVisitable(c);
+		CharacterMaster cm = new CharacterMaster(c);
+		f.addVisitable(c);
+                return cm;
+    }
 
 }

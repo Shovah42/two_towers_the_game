@@ -13,6 +13,9 @@ public class Tower extends Building implements Visitor, Visitable {
 
     public Tower() {
         System.out.println("CALL class Tower method Tower()");
+        this.damage = 10;
+        this.speed = 30;
+        this.range = 1;
         this.shootableCharacters = new ArrayList<Character>();
     }
 
@@ -27,31 +30,42 @@ public class Tower extends Building implements Visitor, Visitable {
     }
 
     public void shoot() {
-        System.out.println("CALL class Tower method shoot()");
+        // kornyezo mezook elkerese
         List<Field> fieldList = new ArrayList<Field>();
         fieldList = field.getNearByRoads(range);
         shootableCharacters.clear();
-        //Mivela list ütes csinálunk 1 olyan fildet amire tud lőni a bemutatás végett
-        Point pointRoad = new Point();
-        pointRoad.x = 2;
-        pointRoad.y = 1;
-        Field roadField = new Field();
-        roadField.setPosition(pointRoad);
-        roadField.setFree(true);
-        roadField.setRoad(true);
-        Character ch = new Character(Species.Hobbit, 0, 0, 0);
-        System.out.println("An another init Call will run now (addVisitable)"); 
-        System.out.println("Because getRoadsInRange() not implemented yet");
-        roadField.addVisitable(ch);
-        ch.setField(roadField);
-        ch.setHealth(10);
-        roadField.getVisitables().get(0).accept(this);
+        // visitable objektumok vegigjarasa
+        for (Field f : fieldList) {
+            for (Visitable v : f.getVisitables()) {
+                // shootablecharacters feltoltese visitorminta segitsegevel
+                v.accept(this);
+            }
+        }
+        boolean shooted = false;
+        // charakter kivalasztasa
         for (Character c : shootableCharacters) {
-            System.out.println("CALLING the character hit method, shoot now done");
-            //c.hit(Color.Red);
-            break;
+            // ha eddig nem lotunk egy karakterre se akkor lohetunk
+            if (!shooted) {
+                shooted = true;
+                // specialis kettevalaszto lovedek sorsolasa
+                double randNumber = Math.random();
+                double d = randNumber * 100;
+                int randomInt = (int) d + 1;
+                if (randomInt > 5) {
+                    // normal loves
+                    c.hit(this.getColor());
+                }else{
+                    //specialis kettevalaszto lovedek lovese
+                    Color coltmp = this.getColor();
+                    this.setColor(Color.Black);
+                    c.hit(this.getColor());
+                    this.setColor(coltmp);
+                }
+            }
         }
     }
+
+    
 
     public Field getField() {
         return this.field;
@@ -62,13 +76,11 @@ public class Tower extends Building implements Visitor, Visitable {
      * @param field
      */
     public void setField(Field field) {
-        System.out.println("CALL class Tower method setField(Field field)");
         this.field = field;
     }
 
-    public void getSpeed() {
-        // TODO - implement Tower.getSpeed
-        throw new UnsupportedOperationException();
+    public int getSpeed() {
+        return this.speed;
     }
 
     /**
@@ -99,17 +111,13 @@ public class Tower extends Building implements Visitor, Visitable {
 
     @Override
     public void visit(Character c) {
-        // TODO Auto-generated method stub
-        System.out.println("CALL class Tower method visit(Character c)");
-        System.out.println("shootableCharacters.add(c)");
         this.shootableCharacters.add(c);
-       
     }
 
     @Override
     public void visit(Tower t) {
         // TODO Auto-generated method stub
-        
+
     }
 
 }
