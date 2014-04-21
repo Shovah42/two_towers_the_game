@@ -10,6 +10,7 @@ public class Character implements Visitable, Visitor {
     private int health;
     private int road;
     private Splitter spl;
+    private String id;
 
     public Character(Species type, int mspeed, int dodge, int road) {
         System.out.println("CALL class Character method konstruktor");
@@ -17,6 +18,7 @@ public class Character implements Visitable, Visitor {
         this.road = road;
         this.dodge = dodge;
         this.type = type;
+        this.id=IdCreator.getNextCharacterId();
     }
 
     public Character(Species type, int life, Field f, int road) {
@@ -179,5 +181,13 @@ public class Character implements Visitable, Visitor {
     public void accept(Visitor v) {
         v.visit(this);
     }
+
+	public String getId() {
+		return id;
+	}
+
+	public void setId(String id) {
+		this.id = id;
+	}
 
 }

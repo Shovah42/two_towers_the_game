@@ -6,12 +6,12 @@ import java.util.List;
 public class Geometry implements RoadManager {
 
     private static Geometry instance;
-    private List<Field>[] roads;
+    private List<ArrayList<Field>> roads;
     private List<Field> map;
     private boolean hasSomeOneMadeItToMordor;
 
     private Geometry() {
-
+    	roads=new ArrayList<ArrayList<Field>>();
     }
 
     public static Geometry getInstance() {
@@ -25,7 +25,7 @@ public class Geometry implements RoadManager {
         return this.hasSomeOneMadeItToMordor;
     }
 
-    public List<Field>[] getRoads() {
+    public List<ArrayList<Field>> getRoads() {
         return this.roads;
     }
 

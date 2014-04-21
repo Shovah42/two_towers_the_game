@@ -12,10 +12,20 @@ public class Field {
     private boolean road;
     private RoadManager roadmanager;
     private List<Visitable> visitables;
+    private String id;
 
+    public Field(Point pos) {
+        this.visitables = new ArrayList<Visitable>();
+        this.roadmanager = Geometry.getInstance();
+        this.free=true;
+        this.position=pos;
+        this.id=IdCreator.getNextFieldId();
+    }
     public Field() {
         this.visitables = new ArrayList<Visitable>();
         this.roadmanager = Geometry.getInstance();
+        this.free=true;
+        this.id=IdCreator.getNextFieldId();
     }
 
     public boolean isFree() {
@@ -118,5 +128,11 @@ public class Field {
         System.out.println("CALL class Field method addVisitable(Visitable v)");
         this.visitables.add(v);
     }
+	public String getId() {
+		return id;
+	}
+	public void setId(String id) {
+		this.id = id;
+	}
 
 }
