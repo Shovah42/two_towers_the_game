@@ -117,6 +117,7 @@ public class Field {
         }
 
         this.getVisitables().get(0).accept(uvisitor);
+        sc.close();
     }
 
     /**
