@@ -1,21 +1,22 @@
+
 public interface Visitor {
 
-	/**
-	 * 
-	 * @param t
-	 */
-	void visit(Trap t);
+    /**
+     *
+     * @param t
+     */
+    void visit(Trap t);
 
-	/**
-	 * 
-	 * @param c
-	 */
-	void visit(Character c);
+    /**
+     *
+     * @param c
+     */
+    void visit(Character c);
 
-	/**
-	 * 
-	 * @param t
-	 */
-	void visit(Tower t);
+    /**
+     *
+     * @param t
+     */
+    void visit(Tower t);
 
 }

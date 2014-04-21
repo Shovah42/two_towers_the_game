@@ -1,3 +1,5 @@
+
 public enum Species {
-	Hobbit, Elf, Human, Dwarf
+
+    Hobbit, Elf, Human, Dwarf
 }

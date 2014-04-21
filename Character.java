@@ -12,33 +12,34 @@ public class Character implements Visitable, Visitor {
     private Splitter spl;
 
     public Character(Species type, int mspeed, int dodge, int road) {
+        System.out.println("CALL class Character method konstruktor");
         this.maxSpeed = mspeed;
         this.road = road;
         this.dodge = dodge;
         this.type = type;
     }
-    
+
     public Character(Species type, int life, Field f, int road) {
-        if(type==Species.Dwarf){
+        if (type == Species.Dwarf) {
             this.maxSpeed = 20;
             this.road = road;
             this.health = life;
             this.dodge = 0;
             this.type = type;
-        }else if(type == Species.Elf){
+        } else if (type == Species.Elf) {
             this.maxSpeed = 30;
             this.road = road;
             this.health = life;
             this.field = f;
             this.dodge = 0;
             this.type = type;
-        }else if (type==Species.Hobbit){
+        } else if (type == Species.Hobbit) {
             this.maxSpeed = 20;
             this.road = road;
             this.health = life;
             this.dodge = 20;
             this.type = type;
-        }else{
+        } else {
             //Humman
             this.maxSpeed = 25;
             this.road = road;
@@ -138,10 +139,10 @@ public class Character implements Visitable, Visitor {
             } else if (c == Color.Purple && this.type == Species.Hobbit) {
                 // hobbit es hobbit ellen hatasos kovel ven upgradelve
                 damage = baseDamage + hugeIncrease;
-            }else if (c == Color.Black){
+            } else if (c == Color.Black) {
                 // kettevago lovedek
-                spl.createSplited(type, this.getHealth()/2, field, this.road);
-                damage = this.getHealth()/2;
+                spl.createSplited(type, this.getHealth() / 2, field, this.road);
+                damage = this.getHealth() / 2;
             } else {
                 // minden mas esetben
                 damage = baseDamage;
@@ -157,13 +158,13 @@ public class Character implements Visitable, Visitor {
 
     @Override
     public void visit(Trap t) {
-		// TODO Auto-generated method stub
+        // TODO Auto-generated method stub
 
     }
 
     @Override
     public void visit(Character c) {
-		// TODO Auto-generated method stub
+        // TODO Auto-generated method stub
 
     }
 
@@ -175,7 +176,7 @@ public class Character implements Visitable, Visitor {
 
     @Override
     public void accept(Visitor v) {
-                v.visit(this);
+        v.visit(this);
     }
 
 }

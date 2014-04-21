@@ -63,15 +63,15 @@ public class Field {
     /**
      *
      * @param i
-     * @return 
+     * @return
      */
     public List<Field> getNearByRoads(int i) {
         List<Field> fieldList = new ArrayList<Field>();
         Field field;
-        if(this.isRoad()){
+        if (this.isRoad()) {
             field = roadmanager.getNextField(this, i);
             fieldList.add(field);
-        }else{
+        } else {
             fieldList = roadmanager.getRoadsInRange(this, i);
         }
         return fieldList;
@@ -82,7 +82,7 @@ public class Field {
      * @param c
      */
     public void execute(Character c) {
-       this.getVisitables().remove(c);
+        this.getVisitables().remove(c);
     }
 
     public List<Visitable> getVisitables() {

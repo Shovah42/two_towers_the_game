@@ -1,27 +1,35 @@
+
 public class CharacterMaster implements Updatable {
 
-	private Character figure;
-	private int tickCount;
+    private Character figure;
+    private int tickCount;
 
-        public CharacterMaster(Character tm) {
-		this.figure=tm;
-	}
-	public Character getFigure() {
-		return this.figure;
-	}
+    public CharacterMaster(Character tm) {
+        this.figure = tm;
+        this.tickCount = 0;
+    }
 
-	/**
-	 * 
-	 * @param figure
-	 */
-	public void setFigure(Character figure) {
-		this.figure = figure;
-	}
+    public Character getFigure() {
+        return this.figure;
+    }
 
-	@Override
-	public boolean update() {
-		// TODO Auto-generated method stub
-		return false;
-	}
-        
+    /**
+     *
+     * @param figure
+     */
+    public void setFigure(Character figure) {
+        this.figure = figure;
+    }
+
+    @Override
+    public boolean update() {
+        if (this.figure.getHealth() <= 0) {
+            return false;
+        }
+        if (this.tickCount++ == this.figure.getSpeed()) {
+            this.figure.move();
+        }
+        return true;
+    }
+
 }

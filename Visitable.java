@@ -1,9 +1,10 @@
+
 public interface Visitable {
 
-	/**
-	 * 
-	 * @param v
-	 */
-	void accept(Visitor v);
+    /**
+     *
+     * @param v
+     */
+    void accept(Visitor v);
 
 }

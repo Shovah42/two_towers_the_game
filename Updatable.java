@@ -1,5 +1,6 @@
+
 public interface Updatable {
 
-	boolean update();
+    boolean update();
 
 }

@@ -1,3 +1,4 @@
+
 import java.awt.Point;
 import java.util.ArrayList;
 import java.util.List;
@@ -55,10 +56,10 @@ public class Geometry implements RoadManager {
     public List<Field> getRoadsInRange(Field f, int range) {
         List<Field> fieldList = new ArrayList<Field>();
         Point thisFieldPos = f.getPosition();
-        for(Field field : map){
+        for (Field field : map) {
             Point pointTmp = field.getPosition();
-            if((thisFieldPos.x - range) <= pointTmp.x && pointTmp.x <= (thisFieldPos.x + range)){
-                if((thisFieldPos.y - range) <= pointTmp.y && pointTmp.y <= (thisFieldPos.y + range)){
+            if ((thisFieldPos.x - range) <= pointTmp.x && pointTmp.x <= (thisFieldPos.x + range)) {
+                if ((thisFieldPos.y - range) <= pointTmp.y && pointTmp.y <= (thisFieldPos.y + range)) {
                     fieldList.add(field);
                 }
             }

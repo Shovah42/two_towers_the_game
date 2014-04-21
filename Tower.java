@@ -54,7 +54,7 @@ public class Tower extends Building implements Visitor, Visitable {
                 if (randomInt > 5) {
                     // normal loves
                     c.hit(this.getColor());
-                }else{
+                } else {
                     //specialis kettevalaszto lovedek lovese
                     Color coltmp = this.getColor();
                     this.setColor(Color.Black);
@@ -64,8 +64,6 @@ public class Tower extends Building implements Visitor, Visitable {
             }
         }
     }
-
-    
 
     public Field getField() {
         return this.field;
