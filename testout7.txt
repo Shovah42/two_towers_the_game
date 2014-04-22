@@ -1,0 +1,30 @@
+Fields: F1 F2 F3 F4 F5 F6 
+Roads: 1:
+F6
+Cs1
+color: Colorless
+Fields: F1 F2 F3 F4 F5 F6 
+Roads: 1:
+F6
+Cs1
+color: Red
+Fields: F1 F2 F3 F4 F5 F6 
+Roads: 1:
+F6
+Cs1
+color: Colorless
+Fields: F1 F2 F3 F4 F5 F6 
+Roads: 1:
+F6
+Cs1
+color: Red
+Fields: F1 F2 F3 F4 F5 F6 
+Roads: 1:
+F6
+Cs1
+color: Colorless
+Fields: F1 F2 F3 F4 F5 F6 
+Roads: 1:
+F6
+Cs1
+color: Red

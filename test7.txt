@@ -4,3 +4,4 @@ addTrap F6 1
 print
 useStone Red
 addStone F6
+print

@@ -3,7 +3,7 @@ addRoad F1 1
 addRoad F2 1
 addRoad F3 1
 addTrap F2 Cs1
-addChar Elf 6 F1 C1 15
+addChar Elf 25 F1 C1 5
 print
 refresh 6
 print

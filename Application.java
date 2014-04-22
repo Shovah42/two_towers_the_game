@@ -80,7 +80,7 @@ public class Application {
 
 	private static void useStone(String[] temp) {
 		color = Color.valueOf(temp[1]);
-		System.out.println("Using" + temp[1]);
+		System.out.println("Using " + temp[1]);
 	}
 
 	private static void addTrap(String[] temp) {

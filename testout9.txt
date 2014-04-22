@@ -1,0 +1,22 @@
+Fields: F1 F2 F3 
+Roads: 1:
+F1
+F2
+F3
+C1
+life: 25
+speed:5
+field: F1
+Cs1
+color: Colorless
+Fields: F1 F2 F3 
+Roads: 1:
+F1
+F2
+F3
+Cs1
+color: Colorless
+C1
+life: 25
+speed:16
+field: F2
