@@ -2,17 +2,23 @@
 import java.util.ArrayList;
 import java.util.List;
 
-
 public class Character implements Visitable, Visitor {
 
     private Field field;
     private int speed;
-    private boolean speedChanged;
     private int dodge;
     private Species type;
     private final int maxSpeed;
     private int health;
     private int road;
+
+    public int getRoad() {
+        return road;
+    }
+
+    public void setRoad(int road) {
+        this.road = road;
+    }
     private Splitter spl;
     private String id;
 
@@ -22,7 +28,7 @@ public class Character implements Visitable, Visitor {
         this.road = road;
         this.dodge = dodge;
         this.type = type;
-        this.id=IdCreator.getNextCharacterId();
+        this.id = IdCreator.getNextCharacterId();
     }
 
     public Character(Species type, int life, Field f, int road) {
@@ -53,8 +59,9 @@ public class Character implements Visitable, Visitor {
             this.dodge = 0;
             this.type = type;
         }
-        this.id=IdCreator.getNextCharacterId();
-        System.out.println("Successfully created a(n)"+this.type+" character at "+this.field+".");
+        this.speed = this.maxSpeed;
+        this.id = IdCreator.getNextCharacterId();
+        System.out.println("Successfully created a(n)" + this.type + " character at " + this.field + ".");
     }
 
     public int getSpeed() {
@@ -70,22 +77,26 @@ public class Character implements Visitable, Visitor {
     }
 
     public void move() {
- //     System.out.println("CALL class Character method move");
+        //     System.out.println("CALL class Character method move");
         List<Field> fieldList = new ArrayList<Field>();
         fieldList = this.getField().getNearByRoads(1);
-        if(fieldList.size() > 1){
-        // elagazashoz ertunk
+        if (fieldList.size() > 1) {
+            // elagazashoz ertunk
             this.getField().execute(this);
-            int i = (int)(Math.random()*2);
+            int i = (int) (Math.random() * 2);
             this.setField(fieldList.get(i));
-        }else{
-        // nem elagazas
+            // TODO: be kell allitani az uj utvonalat!
+            this.setRoad(this.getField().getRoad());
+        } else {
+            // nem elagazas
             this.getField().execute(this);
             this.setField(fieldList.get(0));
         }
+        // speed reseteles
+        this.setSpeed(maxSpeed);
         // csapdaba lepes visitorminta segitsegevel
         for (Visitable v : this.getField().getVisitables()) {
-                v.accept(this);
+            v.accept(this);
         }
     }
 
@@ -195,12 +206,12 @@ public class Character implements Visitable, Visitor {
         v.visit(this);
     }
 
-	public String getId() {
-		return id;
-	}
+    public String getId() {
+        return id;
+    }
 
-	public void setId(String id) {
-		this.id = id;
-	}
+    public void setId(String id) {
+        this.id = id;
+    }
 
 }
