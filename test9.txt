@@ -3,7 +3,15 @@ addRoad F1 1
 addRoad F2 1
 addRoad F3 1
 addTrap F2 Cs1
+<<<<<<< HEAD
+<<<<<<< HEAD
+addChar Elf 6 F1 C1 10
+=======
 addChar Elf 6 F1 C1 15
+>>>>>>> FETCH_HEAD
+=======
+addChar Elf 6 F1 C1 15
+>>>>>>> FETCH_HEAD
 print
 refresh 6
 print

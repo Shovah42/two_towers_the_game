@@ -1,4 +1,12 @@
 createGameField 1:1
 addRoad F1 1
+<<<<<<< HEAD
+<<<<<<< HEAD
+addChar Elf 2 F1 C1 20
+=======
 addChar Elf 2 F1 C1 15
+>>>>>>> FETCH_HEAD
+=======
+addChar Elf 2 F1 C1 15
+>>>>>>> FETCH_HEAD
 print

@@ -1,6 +1,19 @@
 addRoad F2 1
 addRoad F3 1
+<<<<<<< HEAD
+<<<<<<< HEAD
+addChar Elf 2 F1 C1 1
+addTower F6 T1 1
+print
+refresh 3
+=======
 addChar Elf 2 F1 C1 15
 addTower F6 T1 1
 printrefresh 3
+>>>>>>> FETCH_HEAD
+=======
+addChar Elf 2 F1 C1 15
+addTower F6 T1 1
+printrefresh 3
+>>>>>>> FETCH_HEAD
 print
