@@ -1,0 +1,1 @@
+createGameField 1:3addRoad F1 1addRoad F2 1addRoad F3 1addTrap F2 Cs1addChar elf 6 F1 C1 10printrefresh 6print
