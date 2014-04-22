@@ -1,6 +1,8 @@
 
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 public class Character implements Visitable, Visitor {
 
@@ -77,16 +79,24 @@ public class Character implements Visitable, Visitor {
     }
 
     public void move() {
-        //     System.out.println("CALL class Character method move");
-        List<Field> fieldList = new ArrayList<Field>();
-        fieldList = this.getField().getNearByRoads(1);
+        List<Field> fieldList = this.getField().getNearByRoads(1);
         if (fieldList.size() > 1) {
-            // elagazashoz ertunk
+            List<Integer> roadIds=new ArrayList<Integer>();
+            List<Field> possibleFields=new ArrayList<Field>();
+        	// elagazashoz ertunk
             this.getField().execute(this);
-            int i = (int) (Math.random() * 2);
+            Random gen=new Random();
+            
+            for (Field field : fieldList) {
+				if(field!=null){
+					possibleFields.add(field);
+					roadIds.add(fieldList.indexOf(field));
+				}
+			}
+            int i = gen.nextInt(possibleFields.size())+1;
             this.setField(fieldList.get(i));
-            // TODO: be kell allitani az uj utvonalat!
-            this.setRoad(this.getField().getRoad());
+            this.setRoad(roadIds.get(i));
+            
         } else {
             // nem elagazas
             this.getField().execute(this);
@@ -213,5 +223,11 @@ public class Character implements Visitable, Visitor {
     public void setId(String id) {
         this.id = id;
     }
+
+	@Override
+	public void print(PrintWriter pw) {
+		// TODO Auto-generated method stub
+		
+	}
 
 }

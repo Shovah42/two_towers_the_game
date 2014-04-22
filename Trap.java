@@ -1,3 +1,5 @@
+import java.io.PrintWriter;
+
 
 public class Trap extends Building implements Visitable {
 
@@ -22,5 +24,11 @@ public class Trap extends Building implements Visitable {
         v.visit(this);
 
     }
+
+	@Override
+	public void print(PrintWriter pw) {
+		// TODO Auto-generated method stub
+		
+	}
 
 }

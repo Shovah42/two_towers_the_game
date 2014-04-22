@@ -1,5 +1,6 @@
 
 import java.awt.Point;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -130,5 +131,11 @@ public class Tower extends Building implements Visitor, Visitable {
         // TODO Auto-generated method stub
 
     }
+
+	@Override
+	public void print(PrintWriter pw) {
+		// TODO Auto-generated method stub
+		
+	}
 
 }

@@ -1,5 +1,5 @@
 
-public interface Visitable {
+public interface Visitable extends Monitor {
 
     /**
      *
