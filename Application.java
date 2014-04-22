@@ -180,8 +180,8 @@ public class Application {
 				f.setRoad(true);
 				Geometry.getInstance().getRoads()
 						.get(Integer.parseInt(temp[2]) - 1).add(f);
-				System.out.println("Successfully created a Road of number"
-						+ temp[2] + "at" + temp[1]);
+				System.out.println("Successfully created a Road of number "
+						+ temp[2] + " at " + temp[1]);
 			}
 		}
 
@@ -205,7 +205,7 @@ public class Application {
 
 			}
 		}
-		System.out.println("Successfully created a GameField of" + fieldsize[0]
+		System.out.println("Successfully created a GameField of " + fieldsize[0]
 				+ ":" + fieldsize[1]);
 		Geometry.getInstance().setMap(map);
 	}
