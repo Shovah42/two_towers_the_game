@@ -1,1 +1,7 @@
-createGameField 1:2addRoad F1 1addRoad F2 1addChar Hobbit 1 F1 C1 10printrefresh 1print
+createGameField 1:2
+addRoad F1 1
+addRoad F2 1
+addChar Hobbit 1 F1 C1 10
+print
+refresh 1
+print

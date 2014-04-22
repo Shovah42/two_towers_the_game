@@ -1,1 +1,7 @@
-addRoad F2 1addRoad F3 1addChar Elf 2 F1 C1 1addTower F6 T1 1printrefresh 3print
+addRoad F2 1
+addRoad F3 1
+addChar Elf 2 F1 C1 1
+addTower F6 T1 1
+print
+refresh 3
+print
