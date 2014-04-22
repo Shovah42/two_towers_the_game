@@ -77,10 +77,8 @@ public class Field {
      */
     public List<Field> getNearByRoads(int i) {
         List<Field> fieldList = new ArrayList<Field>();
-        Field field;
         if (this.isRoad()) {
-            field = roadmanager.getNextField(this, i);
-            fieldList.add(field);
+            fieldList = roadmanager.getNextField(this, i);
         } else {
             fieldList = roadmanager.getRoadsInRange(this, i);
         }

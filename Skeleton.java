@@ -36,7 +36,7 @@ public class Skeleton {
         Field field2 = new Field();
         character.move();
         field1.getNearByRoads(1);
-        field2 = Geometry.getInstance().getNextField(field1, 1);
+        //field2 = Geometry.getInstance().getNextField(field1, 1);
         character.setField(field2);
         field2.getVisitables();
         Trap trap = new Trap();

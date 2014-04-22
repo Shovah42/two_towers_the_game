@@ -14,14 +14,10 @@ public class GameMaster {
     private List<Field> starterFields;
 
     public void refreshUpdatables() {
-        System.out.println("CALL class GameMaster method refreshUpdatables()");
-
         ListIterator<Updatable> iter = updatableList.listIterator();
         while (iter.hasNext()) {
             if (!iter.next().update()) {
-                System.out.println("CALL class GameMaster method removing the dead...");
                 iter.remove();
-                System.out.println("DONE!");
             }
         }
     }
@@ -42,12 +38,10 @@ public class GameMaster {
      * @param u
      */
     public void addUpdatable(Updatable u) {
-        System.out.println("CALL class GameMaster method addUpdatable(Updatable u)");
         this.updatableList.add(u);
     }
 
     public void startNextRound() {
-        // TODO - implement GameMaster.startNextRound
         throw new UnsupportedOperationException();
     }
 

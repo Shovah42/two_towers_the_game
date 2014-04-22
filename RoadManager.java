@@ -15,6 +15,6 @@ public interface RoadManager {
      * @param f
      * @param roadId
      */
-    Field getNextField(Field f, int roadId);
+    List<Field> getNextField(Field f, int roadId);
 
 }

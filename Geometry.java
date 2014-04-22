@@ -46,9 +46,12 @@ public class Geometry implements RoadManager {
      * @param position
      */
     public Field getFieldOfCoordinate(Point position) {
-        System.out.println("CALL class Geometry method getFieldOfCoordinate(Point position)");
-        System.out.println("Return Field");
-        return null;
+        Field ret=null;
+    	for (Field f : map) {
+			if(f.getPosition().equals(position))
+				ret=f;
+		}
+    	return ret;
     }
 
     @Override
@@ -67,10 +70,20 @@ public class Geometry implements RoadManager {
     }
 
     @Override
-    public Field getNextField(Field f, int roadId) {
-        System.out.println("CALL class Geometry method getNextField(Field f, int roadId)");
-        System.out.println("Return Field");
-        return (new Field());
+    public List<Field> getNextField(Field f, int roadId) {
+        List<Field> possibleRoads=new ArrayList<Field>();
+        for (ArrayList<Field> fields : roads) {
+			if(fields.contains(f)){
+				if((fields.indexOf(f)+2)>fields.size()){
+					hasSomeOneMadeItToMordor=true;
+					return possibleRoads;
+				}
+				possibleRoads.add(fields.get(fields.indexOf(f)+1));
+			}
+			else possibleRoads.add(null);
+		}
+        
+        return possibleRoads;
     }
 
 }
