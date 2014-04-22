@@ -89,7 +89,7 @@ public class Application {
 			if (f.getId().equals(temp[1]))
 				trapField = f;
 		}
-		if (!trapField.isFree() || trapField.isRoad()) {
+		if (!trapField.isFree() || !trapField.isRoad()) {
 			System.out.println("Not a valid field");
 		} else {
 			Trap t = new Trap();

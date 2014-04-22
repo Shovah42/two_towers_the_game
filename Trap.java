@@ -5,6 +5,8 @@ public class Trap extends Building implements Visitable {
 	String id;
     public Trap() {
     	id=IdCreator.getNextTrapId();
+    	this.setColor(Color.Colorless);
+    	System.out.println("Successfully created a trap with color: "+this.getColor().toString());
     }
 
     /**
