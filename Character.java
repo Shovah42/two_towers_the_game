@@ -40,6 +40,7 @@ public class Character implements Visitable, Visitor {
             this.health = life;
             this.dodge = 0;
             this.type = type;
+            this.field = f;
         } else if (type == Species.Elf) {
             this.maxSpeed = 15;
             this.road = road;
@@ -53,6 +54,7 @@ public class Character implements Visitable, Visitor {
             this.health = life;
             this.dodge = 10;
             this.type = type;
+            this.field = f;
         } else {
             //Humman
             this.maxSpeed = 20;
@@ -60,6 +62,7 @@ public class Character implements Visitable, Visitor {
             this.health = life;
             this.dodge = 0;
             this.type = type;
+            this.field = f;
         }
         this.speed = this.maxSpeed;
         this.id = IdCreator.getNextCharacterId();
@@ -231,5 +234,9 @@ public class Character implements Visitable, Visitor {
 		// TODO Auto-generated method stub
 		
 	}
+
+    public void visit(java.lang.Character c) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 
 }
