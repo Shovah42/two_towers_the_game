@@ -22,10 +22,10 @@ public class UpdatableFactory implements Splitter {
      * @param t
      * @param f
      */
-    public Updatable createUpdatable(Tower t, Field f) {
+    public Updatable createUpdatable(int damage, Field field, int speed, int range) {
         //System.out.println("CALL class Trap method createUpdatable(Tower t, Field f)");
-        t.setField(f);
-        f.addVisitable(t);
+        Tower t = new Tower( damage, field, speed, range);
+        field.addVisitable(t);
         TowerMaster tm = new TowerMaster(t);
         return tm;
     }

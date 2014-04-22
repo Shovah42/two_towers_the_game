@@ -1,4 +1,2 @@
-createGameField 2:3
-addRoad F4 1
-addRoad F5 1
-addRoad F6 1
+createGameField 1:1
+addChar elf 2 F1 C1 20
