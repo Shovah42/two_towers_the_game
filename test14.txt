@@ -1,1 +1,1 @@
-createGameField 2:2addRoad F1 1addRoad F2 1addTower F3 T1 2addChar elf 4 F1 C1 10addChar elf 4 F2 C2 10printrefresh 2print
+createGameField 2:2addRoad F1 1addRoad F2 1addTower F3 T1 2addChar Elf 4 F1 C1 10addChar elf 4 F2 C2 10printrefresh 2print
