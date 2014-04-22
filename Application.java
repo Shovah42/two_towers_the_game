@@ -3,7 +3,9 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -11,6 +13,7 @@ public class Application {
 
 	private static int mana;
 	private static Color color;
+
 	// We don't need run yet, because we don't use time when testing
 	public void run() {
 
@@ -34,7 +37,7 @@ public class Application {
 			} else if (temp[0].equals("addChar")) {
 				addChar(temp);
 			} else if (temp[0].equals("print")) {
-				print(temp);
+				print(temp, args[0]);
 			} else if (temp[0].equals("refresh")) {
 				refresh(temp);
 			} else if (temp[0].equals("addTower")) {
@@ -53,14 +56,14 @@ public class Application {
 	}
 
 	// Functions for testing
-	
+
 	private static void addFog(String[] temp) {
-		ArrayList<String> fields=new ArrayList<String>();
+		ArrayList<String> fields = new ArrayList<String>();
 		fields.add(temp[1]);
 		for (Field f : Geometry.getInstance().getMap()) {
 			if (f.getId().equals(temp[1]))
 				for (Visitable v : f.getVisitables()) {
-					v.accept(new Weather(1,fields));
+					v.accept(new Weather(1, fields));
 				}
 		}
 
@@ -76,8 +79,8 @@ public class Application {
 	}
 
 	private static void useStone(String[] temp) {
-		color=Color.valueOf(temp[1]);
-
+		color = Color.valueOf(temp[1]);
+		System.out.println("Using" + temp[1]);
 	}
 
 	private static void addTrap(String[] temp) {
@@ -116,10 +119,40 @@ public class Application {
 		for (int i = 0; i < updateCount; i++) {
 			GameMaster.getInstance().refreshUpdatables();
 		}
+		System.out.println("The game is refreshed with " + updateCount
+				+ " ticks");
 	}
 
-	private static void print(String[] temp) {
-		
+	private static void print(String[] temp, String file) {
+		PrintWriter pw = null;
+		try {
+			pw = new PrintWriter(
+					new FileWriter("testout" + file + ".txt", true));
+			pw.append("Fields: ");
+			for (Field f : Geometry.getInstance().getMap()) {
+				pw.append(f.getId() + " ");
+			}
+			pw.append("\nRoads: ");
+			for (List<Field> fs : Geometry.getInstance().getRoads()) {
+				int i = 1;
+				if (!fs.isEmpty()) {
+					pw.append(String.valueOf(i) + ":\n");
+					for (Field field : fs) {
+						pw.append(field.getId() + "\n");
+					}
+				}
+				i++;
+			}
+			for (Monitor m : Geometry.getInstance().getMap()) {
+				m.print(pw);
+			}
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} finally {
+			pw.close();
+		}
+
 	}
 
 	private static void addChar(String[] temp) {
@@ -146,7 +179,9 @@ public class Application {
 			if (f.getId().equals(temp[1])) {
 				f.setRoad(true);
 				Geometry.getInstance().getRoads()
-						.get(Integer.parseInt(temp[2])).add(f);
+						.get(Integer.parseInt(temp[2]) - 1).add(f);
+				System.out.println("Successfully created a Road of number"
+						+ temp[2] + "at" + temp[1]);
 			}
 		}
 
@@ -161,8 +196,6 @@ public class Application {
 		return mana;
 	}
 
-	
-	
 	private static void createGameField(String[] args) {
 		String[] fieldsize = args[1].split(":");
 		ArrayList<Field> map = new ArrayList<Field>();
@@ -172,17 +205,18 @@ public class Application {
 
 			}
 		}
+		System.out.println("Successfully created a GameField of" + fieldsize[0]
+				+ ":" + fieldsize[1]);
 		Geometry.getInstance().setMap(map);
 	}
 
 	// Reads the lines of a file, and returns a list of them
 	private static List<String> readFile(File f) {
 		List<String> list = new ArrayList<String>();
-		File file = new File("file.txt");
 		BufferedReader reader = null;
 
 		try {
-			reader = new BufferedReader(new FileReader(file));
+			reader = new BufferedReader(new FileReader(f));
 			String text = null;
 
 			while ((text = reader.readLine()) != null) {

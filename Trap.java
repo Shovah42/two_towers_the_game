@@ -2,9 +2,9 @@ import java.io.PrintWriter;
 
 
 public class Trap extends Building implements Visitable {
-
+	String id;
     public Trap() {
-        System.out.println("CALL class Trap method Trap()");
+    	id=IdCreator.getNextTrapId();
     }
 
     /**
@@ -12,22 +12,19 @@ public class Trap extends Building implements Visitable {
      * @param character
      */
     public void effectCharacter(Character character) {
-        // TODO - implement Trap.effectCharacter
-        System.out.println("CALL class Trap method effectCharacter(Character character)");
-
+        character.setSpeed(character.getSpeed()-1);
     }
 
     @Override
     public void accept(Visitor v) {
-        System.out.println("alt Visitable==Trap");
-        System.out.println("CALL class Trap method accept(Visitor v)");
         v.visit(this);
 
     }
 
 	@Override
 	public void print(PrintWriter pw) {
-		// TODO Auto-generated method stub
+		pw.append(id+"\n");
+		pw.append("color: "+getColor()+"\n");
 		
 	}
 

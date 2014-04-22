@@ -4,14 +4,18 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Geometry implements RoadManager {
-
+	//To configure the maximum number of roads
+	private static final int roadNumber=5;
     private static Geometry instance;
-    private List<ArrayList<Field>> roads;
-    private List<Field> map;
-    private boolean hasSomeOneMadeItToMordor;
+    private  List<ArrayList<Field>> roads;
+    private  List<Field> map;
+    private static boolean hasSomeOneMadeItToMordor;
 
-    private Geometry() {
+    private  Geometry() {
     	roads=new ArrayList<ArrayList<Field>>();
+    	for (int i = 0; i < roadNumber; i++) {
+			roads.add(new ArrayList<Field>());
+		}
     }
 
     public static Geometry getInstance() {
@@ -22,15 +26,15 @@ public class Geometry implements RoadManager {
     }
 
     public boolean getHasSomeoneMadeItToMordor() {
-        return this.hasSomeOneMadeItToMordor;
+        return hasSomeOneMadeItToMordor;
     }
 
     public List<ArrayList<Field>> getRoads() {
-        return this.roads;
+        return instance.roads;
     }
 
     public List<Field> getMap() {
-        return this.map;
+        return map;
     }
 
     /**

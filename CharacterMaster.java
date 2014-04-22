@@ -26,7 +26,7 @@ public class CharacterMaster implements Updatable {
         if (this.figure.getHealth() <= 0) {
             return false;
         }
-        if (this.tickCount++ >= this.figure.getSpeed()) {
+        if (++this.tickCount >= this.figure.getSpeed()) {
             this.figure.move();
             this.tickCount = 0;
         }

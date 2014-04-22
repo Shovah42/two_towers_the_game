@@ -1,5 +1,4 @@
 
-import java.awt.Point;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
@@ -16,7 +15,10 @@ public class Tower extends Building implements Visitor, Visitable {
     public void setId(String id) {
         this.id = id;
     }
-
+    public void setColor(Color c) {
+        super.setColor(c);
+        System.out.println("Upgrading tower at "+field.getId()+" with current color.");
+    }
     public String getId() {
         return id;
     }
@@ -103,10 +105,7 @@ public class Tower extends Building implements Visitor, Visitable {
         this.speed = speed;
     }
 
-    private void iShootYou() {
-        // TODO - implement Tower.iShootYou
-        throw new UnsupportedOperationException();
-    }
+    
 
     @Override
     public void accept(Visitor v) {
@@ -134,8 +133,12 @@ public class Tower extends Building implements Visitor, Visitable {
 
 	@Override
 	public void print(PrintWriter pw) {
-		// TODO Auto-generated method stub
-		
+		pw.append(this.id+"\n");
+		pw.append("field: "+getField().getId()+"\n");
+		pw.append("color:"+getColor().toString()+"\n");
+		pw.append("speed:"+getSpeed()+"\n");
+		pw.append("range:"+range+"\n");
+		pw.append("damage:"+damage+"\n");
 	}
 
 }

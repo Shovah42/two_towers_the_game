@@ -66,7 +66,8 @@ public class Character implements Visitable, Visitor {
         }
         this.speed = this.maxSpeed;
         this.id = IdCreator.getNextCharacterId();
-        System.out.println("Successfully created a(n)" + this.type + " character at " + this.field + ".");
+        this.field=f;
+        System.out.println("Successfully created a(n)" + this.type + " character at " + this.field.getId() + ".");
     }
 
     public int getSpeed() {
@@ -87,7 +88,7 @@ public class Character implements Visitable, Visitor {
             List<Integer> roadIds=new ArrayList<Integer>();
             List<Field> possibleFields=new ArrayList<Field>();
         	// elagazashoz ertunk
-            this.getField().execute(this);
+            //this.getField().execute(this);
             Random gen=new Random();
             
             for (Field field : fieldList) {
@@ -96,7 +97,7 @@ public class Character implements Visitable, Visitor {
 					roadIds.add(fieldList.indexOf(field));
 				}
 			}
-            int i = gen.nextInt(possibleFields.size())+1;
+            int i = gen.nextInt(possibleFields.size());
             this.setField(fieldList.get(i));
             fieldList.get(i).addVisitable(this);
             this.setRoad(roadIds.get(i));
@@ -231,8 +232,10 @@ public class Character implements Visitable, Visitor {
 
 	@Override
 	public void print(PrintWriter pw) {
-		// TODO Auto-generated method stub
-		
+		pw.append(getId()+"\n");
+		pw.append("life:"+getHealth()+"\n");
+		pw.append("speed:"+getSpeed()+"\n");
+		pw.append("field:"+getField().getId()+"\n");
 	}
 
     public void visit(java.lang.Character c) {

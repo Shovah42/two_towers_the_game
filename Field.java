@@ -1,11 +1,11 @@
 
 import java.awt.Point;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-import java.util.concurrent.ArrayBlockingQueue;
 
-public class Field {
+public class Field implements Monitor{
 
     private Point position;
     private boolean free;
@@ -33,7 +33,6 @@ public class Field {
     }
 
     public void build() {
-        System.out.println("CALL class Field method build()");
         Trap t = new Trap();
         this.addVisitable(t);
     }
@@ -94,18 +93,13 @@ public class Field {
     }
 
     public List<Visitable> getVisitables() {
-        System.out.println("CALL class Field method getVisitables()");
-        System.out.println("Return Visitables");
         return this.visitables;
     }
 
     public void upgradeBuilding(UpgradeVisitor uvisitor) {
-        System.out.println("CALL class Field method upgradeBuilding(UpgradeVisitor uvisitor)");
-        System.out.println("Do you want to upgrade a tower of a trap? (tower/trap)");
         Scanner sc = new Scanner(System.in);
         String s = sc.nextLine();
         while (!(s.equals("tower") || s.equals("trap"))) {
-            System.out.println("Do you want to upgrade a tower of a trap? (tower/trap)");
             s = sc.nextLine();
         }
         if (s.equals("tower")) {
@@ -123,8 +117,6 @@ public class Field {
      * @param v
      */
     public void addVisitable(Visitable v) {
-        // TODO - implement Field.addVisitable
-        System.out.println("CALL class Field method addVisitable(Visitable v)");
         this.visitables.add(v);
     }
 	public String getId() {
@@ -132,6 +124,12 @@ public class Field {
 	}
 	public void setId(String id) {
 		this.id = id;
+	}
+	@Override
+	public void print(PrintWriter pw) {
+		for (Visitable vis : getVisitables()) {
+			vis.print(pw);
+		}
 	}
 
 }

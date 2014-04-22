@@ -12,7 +12,6 @@ public abstract class Building {
      * @param color
      */
     public void setColor(Color color) {
-        System.out.println("CALL class Building method setColor(Color color)");
         this.color = color;
     }
 
