@@ -232,10 +232,14 @@ public class Character implements Visitable, Visitor {
 
 	@Override
 	public void print(PrintWriter pw) {
+                System.out.println(getId());
 		pw.append(getId()+"\n");
-		pw.append("life:"+getHealth()+"\n");
+                System.out.println("life: "+getHealth());
+		pw.append("life: "+getHealth()+"\n");
+                System.out.println("speed: "+getSpeed());
 		pw.append("speed:"+getSpeed()+"\n");
-		pw.append("field:"+getField().getId()+"\n");
+                System.out.println("field: "+getField().getId());
+		pw.append("field: "+getField().getId()+"\n");
 	}
 
     public void visit(java.lang.Character c) {

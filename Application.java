@@ -129,16 +129,23 @@ public class Application {
 			pw = new PrintWriter(
 					new FileWriter("testout" + file + ".txt", true));
 			pw.append("Fields: ");
+                        String str = "Fields: ";
 			for (Field f : Geometry.getInstance().getMap()) {
 				pw.append(f.getId() + " ");
+                                str = str + f.getId() + " ";
 			}
+                        System.out.println(str);
+                        str = "Roads: ";
 			pw.append("\nRoads: ");
 			for (List<Field> fs : Geometry.getInstance().getRoads()) {
 				int i = 1;
 				if (!fs.isEmpty()) {
 					pw.append(String.valueOf(i) + ":\n");
+                                        System.out.println(str + String.valueOf(i) +":");
 					for (Field field : fs) {
 						pw.append(field.getId() + "\n");
+                                                System.out.println(field.getId());
+                                                
 					}
 				}
 				i++;

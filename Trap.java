@@ -25,7 +25,9 @@ public class Trap extends Building implements Visitable {
 
 	@Override
 	public void print(PrintWriter pw) {
+                System.out.println(id);
 		pw.append(id+"\n");
+                System.out.println("color: "+getColor());
 		pw.append("color: "+getColor()+"\n");
 		
 	}

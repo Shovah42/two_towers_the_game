@@ -133,12 +133,18 @@ public class Tower extends Building implements Visitor, Visitable {
 
 	@Override
 	public void print(PrintWriter pw) {
+                System.out.println(this.id);
 		pw.append(this.id+"\n");
+                System.out.println("field: "+getField().getId());
 		pw.append("field: "+getField().getId()+"\n");
-		pw.append("color:"+getColor().toString()+"\n");
-		pw.append("speed:"+getSpeed()+"\n");
-		pw.append("range:"+range+"\n");
-		pw.append("damage:"+damage+"\n");
+                System.out.println("color:"+getColor().toString());
+		pw.append("color: "+getColor().toString()+"\n");
+                System.out.println("speed: "+getSpeed());
+		pw.append("speed: "+getSpeed()+"\n");
+                System.out.println("range: "+range);
+		pw.append("range: "+range+"\n");
+                System.out.println("damage: "+damage);
+		pw.append("damage: "+damage+"\n");
 	}
 
 }
