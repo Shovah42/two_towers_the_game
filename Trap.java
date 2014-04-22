@@ -14,7 +14,7 @@ public class Trap extends Building implements Visitable {
      * @param character
      */
     public void effectCharacter(Character character) {
-        character.setSpeed(character.getSpeed()-1);
+        character.setSpeed(character.getSpeed()+1);
     }
 
     @Override
