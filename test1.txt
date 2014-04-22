@@ -1,2 +1,2 @@
 createGameField 1:1
-addChar elf 2 F1 C1 20
+addChar Elf 2 F1 C1 20
