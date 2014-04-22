@@ -1,7 +1,11 @@
 createGameField 1:2
 addRoad F1 1
 addRoad F2 1
+<<<<<<< HEAD
 addChar Hobbit 1 F1 C1 10
+=======
+addChar Hobbit 1 F1 C1 25
+>>>>>>> FETCH_HEAD
 print
 refresh 1
 print

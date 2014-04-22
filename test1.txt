@@ -1,4 +1,16 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
 createGameField 2:3
 addRoad F4 1
 addRoad F5 1
+=======
+createGameField 2:3
+addRoad F4 1
+addRoad F5 1
+>>>>>>> f28ccdddc3cd8c1cf93c54bce34fa41071682957
+=======
+createGameField 2:3
+addRoad F4 1
+addRoad F5 1
+>>>>>>> f28ccdddc3cd8c1cf93c54bce34fa41071682957
 addRoad F6 1
