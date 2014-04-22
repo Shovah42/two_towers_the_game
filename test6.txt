@@ -1,12 +1,3 @@
 createGameField 2:3
-<<<<<<< HEAD
-<<<<<<< HEAD
-addRoad F6 1
-addTrap F6 1
-=======
 addRoad F6 1addTrap F6 1
->>>>>>> FETCH_HEAD
-=======
-addRoad F6 1addTrap F6 1
->>>>>>> FETCH_HEAD
 print

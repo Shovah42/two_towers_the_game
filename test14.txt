@@ -2,18 +2,8 @@ createGameField 2:2
 addRoad F1 1
 addRoad F2 1
 addTower F3 T1 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-addChar Elf 4 F1 C1 10
-addChar elf 4 F2 C2 10
-=======
 addChar Elf 4 F1 C1 15
 addChar Elf 4 F2 C2 15
->>>>>>> FETCH_HEAD
-=======
-addChar Elf 4 F1 C1 15
-addChar Elf 4 F2 C2 15
->>>>>>> FETCH_HEAD
 print
 refresh 2
 print
