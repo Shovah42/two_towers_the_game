@@ -95,12 +95,14 @@ public class Character implements Visitable, Visitor {
 			}
             int i = gen.nextInt(possibleFields.size())+1;
             this.setField(fieldList.get(i));
+            fieldList.get(i).addVisitable(this);
             this.setRoad(roadIds.get(i));
             
         } else {
             // nem elagazas
             this.getField().execute(this);
             this.setField(fieldList.get(0));
+            fieldList.get(0).addVisitable(this);
         }
         // speed reseteles
         this.setSpeed(maxSpeed);
