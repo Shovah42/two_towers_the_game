@@ -27,7 +27,7 @@ public class TowerMaster implements Updatable {
             tickCount = 0;
             tower.shoot();
         }
-        return false;
+        return true;
     }
 
 }
