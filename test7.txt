@@ -1,1 +1,6 @@
-createGameField 2:3addRoad F6 1addTrap F6 1printuseStone RedaddStone F6
+createGameField 2:3
+addRoad F6 1
+addTrap F6 1
+print
+useStone Red
+addStone F6

@@ -1,1 +1,3 @@
-createGameField 2:3addTower F6 T1 1print
+createGameField 2:3
+addTower F6 T1 1
+print

@@ -1,1 +1,4 @@
-createGameField 1:1addRoad F1 1addChar Elf 2 F1 C1 20print
+createGameField 1:1
+addRoad F1 1
+addChar Elf 2 F1 C1 15
+print
