@@ -163,7 +163,7 @@ public class Application {
 				charField = f;
 		}
 		if (!charField.isRoad())
-			System.out.println("Error: F1 is not a valid position.");
+			System.out.println("Error: "+temp[3]+" is not a valid position.");
 		else {
 			Character ch = new Character(s, Integer.parseInt(temp[2]),
 					charField, 1);

@@ -33,6 +33,7 @@ public class Tower extends Building implements Visitor, Visitable {
         this.range = 2;
         this.shootableCharacters = new ArrayList<Character>();
         this.id = IdCreator.getNextTowerId();
+        this.setColor(Color.Colorless);
     }
 
     public Tower(int damage, Field field, int speed, int range) {
@@ -42,7 +43,8 @@ public class Tower extends Building implements Visitor, Visitable {
         this.range = range;
         this.shootableCharacters = new ArrayList<Character>();
         this.id = IdCreator.getNextTowerId();
-        System.out.println("Successfully created a tower at "+this.field+" with speed: "+this.speed+".");
+        this.setColor(Color.Colorless);
+        System.out.println("Successfully created a tower at "+this.field.getId()+" with speed: "+this.speed+".");
     }
 
     public void shoot() {
@@ -109,8 +111,6 @@ public class Tower extends Building implements Visitor, Visitable {
 
     @Override
     public void accept(Visitor v) {
-        System.out.println("alt Visitable==Tower");
-        System.out.println("CALL class Tower method accept(Visitor v)");
         v.visit(this);
     }
 

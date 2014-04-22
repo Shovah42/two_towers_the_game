@@ -90,6 +90,7 @@ public class Field implements Monitor{
      */
     public void execute(Character c) {
         this.getVisitables().remove(c);
+        
     }
 
     public List<Visitable> getVisitables() {

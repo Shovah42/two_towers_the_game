@@ -5,7 +5,6 @@ public class TowerMaster implements Updatable {
     private int tickCount;
 
     public TowerMaster(Tower tm) {
-        System.out.println("CALL class TowerMaster method TowerMaster(Tower tm)");
         this.tower = tm;
     }
 

@@ -88,7 +88,7 @@ public class Character implements Visitable, Visitor {
             List<Integer> roadIds=new ArrayList<Integer>();
             List<Field> possibleFields=new ArrayList<Field>();
         	// elagazashoz ertunk
-            //this.getField().execute(this);
+            this.getField().execute(this);
             Random gen=new Random();
             
             for (Field field : fieldList) {
