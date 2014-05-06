@@ -1,6 +1,6 @@
 import java.util.List;
 
-public class Weather implements Updatable, Visitor {
+public class Weather implements Updatable, Visitor, Drawable {
 
 	private int tickCount;
 	private int frequency;
@@ -42,4 +42,20 @@ public class Weather implements Updatable, Visitor {
 		return false;
 	}
 
+    @Override
+    public void attach(View v) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void detach(View v) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void notifyView() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+        
 }

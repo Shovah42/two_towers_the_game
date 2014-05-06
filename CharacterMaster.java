@@ -1,33 +1,56 @@
 
+/**
+ * Egy adott karakterert felelos karakter master osztaly.
+ *
+ * @author ComboBox
+ */
 public class CharacterMaster implements Updatable {
 
-    private Character figure;
+    private Character character;
     private int tickCount;
 
-    public CharacterMaster(Character tm) {
-        this.figure = tm;
+    /**
+     * A karakter master osztaly parameteres konstruktora.
+     *
+     * @param character a karakter master ezen karakterert felelos.
+     */
+    public CharacterMaster(Character character) {
+        this.character = character;
         this.tickCount = 0;
     }
 
-    public Character getFigure() {
-        return this.figure;
+    /**
+     * A karakter master altal menedzselt karakter.
+     *
+     * @return menedzselt karakter.
+     */
+    public Character getCharacter() {
+        return this.character;
     }
 
     /**
+     * A karaktermaster, mely karaktert legyen felelos.
      *
-     * @param figure
+     * @param character az uj menedzselt karakter.
      */
-    public void setFigure(Character figure) {
-        this.figure = figure;
+    public void setCharacter(Character character) {
+        this.character = character;
     }
 
+    /**
+     * A karakter mester altal menedzselt karakter frissiteseert (lepteteseert)
+     * felelos fuggveny.
+     *
+     * @return false, ha az adott karater meghalt, kulonben igaz.
+     */
     @Override
     public boolean update() {
-        if (this.figure.getHealth() <= 0) {
+        if (this.character.getHealth() <= 0) {
             return false;
         }
-        if (++this.tickCount >= this.figure.getSpeed()) {
-            this.figure.move();
+        this.tickCount = this.tickCount + 1;
+        if (this.tickCount >= this.character.getSpeed()) {
+            this.character.move();
             this.tickCount = 0;
         }
         return true;

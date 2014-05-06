@@ -106,7 +106,7 @@ public class Application {
 		if (!towField.isFree() || towField.isRoad()) {
 			System.out.println("Not a valid field");
 		} else {
-			Updatable u = new UpdatableFactory().createUpdatable(20, towField, Integer.parseInt(temp[3]), 1);
+			Updatable u = new UpdatableFactory().createUpdatable( towField, Integer.parseInt(temp[3]), 1);
 			GameMaster.getInstance().addUpdatable(u);
 		}
 
