@@ -1,6 +1,6 @@
 
 /**
- * Egy adott karakterert felelos karakter master osztaly.
+ * Egy adott karakterert felelos karakter mester osztaly.
  *
  * @author ComboBox
  */
@@ -10,7 +10,7 @@ public class CharacterMaster implements Updatable {
     private int tickCount;
 
     /**
-     * A karakter master osztaly parameteres konstruktora.
+     * A karakter mester osztaly parameteres konstruktora.
      *
      * @param character a karakter master ezen karakterert felelos.
      */
@@ -20,7 +20,7 @@ public class CharacterMaster implements Updatable {
     }
 
     /**
-     * A karakter master altal menedzselt karakter.
+     * A karakter mester altal menedzselt karakter.
      *
      * @return menedzselt karakter.
      */
@@ -29,7 +29,7 @@ public class CharacterMaster implements Updatable {
     }
 
     /**
-     * A karaktermaster, mely karaktert legyen felelos.
+     * A karakter mester, mely karaktert legyen felelos.
      *
      * @param character az uj menedzselt karakter.
      */

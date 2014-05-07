@@ -3,6 +3,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.ListIterator;
 
+/**
+ * Jatek mester osztaly.
+ *
+ * @author ComboBox
+ */
 public class GameMaster {
 
     private ArrayList<Updatable> updatableList;
@@ -13,15 +18,11 @@ public class GameMaster {
     private boolean outOfCharacters;
     private List<Field> starterFields;
 
-    public void refreshUpdatables() {
-        ListIterator<Updatable> iter = updatableList.listIterator();
-        while (iter.hasNext()) {
-            if (!iter.next().update()) {
-                iter.remove();
-            }
-        }
-    }
-
+    /**
+     * A jatek mester singelton konstruktora.
+     *
+     * @return GameMaster
+     */
     public static GameMaster getInstance() {
         if (instance == null) {
             instance = new GameMaster();
@@ -34,11 +35,31 @@ public class GameMaster {
     }
 
     /**
+     * A jatek mester altal kezelt frissitendo objektumokhoz ujabb elem
+     * felvetele.
      *
-     * @param u
+     * @param u az uj frissitendo objektum.
      */
     public void addUpdatable(Updatable u) {
         this.updatableList.add(u);
+    }
+
+    /**
+     * A frissitendo objektumok frissitese.
+     */
+    public void refreshUpdatables() {
+//        ListIterator<Updatable> iter = updatableList.listIterator();
+//        while (iter.hasNext()) {
+//            if (!iter.next().update()) {
+//                iter.remove();
+//            }
+//        }
+        ArrayList<Updatable> updatableTempList = updatableList;
+        for(Updatable updatable : updatableTempList){
+            if(updatable.update()){
+                updatableList.remove(updatable);
+            }
+        }
     }
 
     public void startNextRound() {

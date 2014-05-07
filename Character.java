@@ -21,6 +21,72 @@ public class Character implements Visitable, Visitor, Drawable {
     private Species type;
     private Splitter spl;
     private String id;
+    private CharacterView characterView;
+
+    /**
+     * A karakter parameteres konstruktora.
+     *
+     * @param type a karkater tipusa.
+     * @param mspeed a karakter maximalis sebessege.
+     * @param dodge a karkater lovedék elkerulesenek eselye (0-nem tud elkerulni
+     * lovedeket, 100-minden lovedeket elkerul).
+     * @param road a karkater utjanak szama.
+     */
+    public Character(Species type, int mspeed, int dodge, int road) {
+        System.out.println("CALL class Character method konstruktor");
+        this.maxSpeed = mspeed;
+        this.road = road;
+        this.dodge = dodge;
+        this.type = type;
+        this.id = IdCreator.getNextCharacterId();
+        characterView = new CharacterView(this);
+    }
+
+    /**
+     * A karakter parameteres konstruktora.
+     *
+     * @param type a karkater tipusa.
+     * @param life a karkater eletereje.
+     * @param f a karkater mezoje.
+     * @param road a karkater utjanak szama.
+     */
+    public Character(Species type, int life, Field f, int road) {
+        if (type == Species.Dwarf) {
+            this.maxSpeed = 25;
+            this.road = road;
+            this.health = life;
+            this.dodge = 0;
+            this.type = type;
+            this.field = f;
+        } else if (type == Species.Elf) {
+            this.maxSpeed = 15;
+            this.road = road;
+            this.health = life;
+            this.field = f;
+            this.dodge = 0;
+            this.type = type;
+        } else if (type == Species.Hobbit) {
+            this.maxSpeed = 25;
+            this.road = road;
+            this.health = life;
+            this.dodge = 10;
+            this.type = type;
+            this.field = f;
+        } else {
+            //Humman
+            this.maxSpeed = 20;
+            this.road = road;
+            this.health = life;
+            this.dodge = 0;
+            this.type = type;
+            this.field = f;
+        }
+        this.speed = this.maxSpeed;
+        this.id = IdCreator.getNextCharacterId();
+        this.field = f;
+        characterView = new CharacterView(this);
+        System.out.println("Successfully created a(n)" + this.type + " character at " + this.field.getId() + ".");
+    }
 
     /**
      * Tartalmazza a karakter eleterejet. Ha 0 vagy annal kevesebb a karakter
@@ -140,69 +206,6 @@ public class Character implements Visitable, Visitor, Drawable {
      */
     public void setId(String id) {
         this.id = id;
-    }
-
-    /**
-     * A karakter parameteres konstruktora.
-     *
-     * @param type a karkater tipusa.
-     * @param mspeed a karakter maximalis sebessege.
-     * @param dodge a karkater lovedék elkerulesenek eselye (0-nem tud elkerulni
-     * lovedeket, 100-minden lovedeket elkerul).
-     * @param road a karkater utjanak szama.
-     */
-    public Character(Species type, int mspeed, int dodge, int road) {
-        System.out.println("CALL class Character method konstruktor");
-        this.maxSpeed = mspeed;
-        this.road = road;
-        this.dodge = dodge;
-        this.type = type;
-        this.id = IdCreator.getNextCharacterId();
-    }
-
-    /**
-     * A karakter parameteres konstruktora.
-     *
-     * @param type a karkater tipusa.
-     * @param life a karkater eletereje.
-     * @param f a karkater mezoje.
-     * @param road a karkater utjanak szama.
-     */
-    public Character(Species type, int life, Field f, int road) {
-        if (type == Species.Dwarf) {
-            this.maxSpeed = 25;
-            this.road = road;
-            this.health = life;
-            this.dodge = 0;
-            this.type = type;
-            this.field = f;
-        } else if (type == Species.Elf) {
-            this.maxSpeed = 15;
-            this.road = road;
-            this.health = life;
-            this.field = f;
-            this.dodge = 0;
-            this.type = type;
-        } else if (type == Species.Hobbit) {
-            this.maxSpeed = 25;
-            this.road = road;
-            this.health = life;
-            this.dodge = 10;
-            this.type = type;
-            this.field = f;
-        } else {
-            //Humman
-            this.maxSpeed = 20;
-            this.road = road;
-            this.health = life;
-            this.dodge = 0;
-            this.type = type;
-            this.field = f;
-        }
-        this.speed = this.maxSpeed;
-        this.id = IdCreator.getNextCharacterId();
-        this.field = f;
-        System.out.println("Successfully created a(n)" + this.type + " character at " + this.field.getId() + ".");
     }
 
     /**
@@ -361,7 +364,7 @@ public class Character implements Visitable, Visitor, Drawable {
 
     @Override
     public void attach(View v) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+       
     }
 
     @Override
@@ -371,7 +374,7 @@ public class Character implements Visitable, Visitor, Drawable {
 
     @Override
     public void notifyView() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        
     }
 
 }

@@ -21,39 +21,39 @@ public class Application {
 		throw new UnsupportedOperationException();
 	}
 
-	public static void main(String[] args) {
-		File file = new File("test" + args[0] + ".txt");
-		List<String> commands = readFile(file);
-		// parsing the input language
-		// and calling the appropriate test methods
-		for (String cmd : commands) {
-			String[] temp = cmd.split(" ");
-			if (temp[0].equals("createGameField")) {
-				createGameField(temp);
-			} else if (temp[0].equals("createGameField")) {
-				createGameField(temp);
-			} else if (temp[0].equals("addRoad")) {
-				addRoad(temp);
-			} else if (temp[0].equals("addChar")) {
-				addChar(temp);
-			} else if (temp[0].equals("print")) {
-				print(temp, args[0]);
-			} else if (temp[0].equals("refresh")) {
-				refresh(temp);
-			} else if (temp[0].equals("addTower")) {
-				addTower(temp);
-			} else if (temp[0].equals("addTrap")) {
-				addTrap(temp);
-			} else if (temp[0].equals("useStone")) {
-				useStone(temp);
-			} else if (temp[0].equals("addStone")) {
-				addStone(temp);
-			} else if (temp[0].equals("addFog")) {
-				addFog(temp);
-			}
-
-		}
-	}
+//	public static void main(String[] args) {
+//		File file = new File("test" + args[0] + ".txt");
+//		List<String> commands = readFile(file);
+//		// parsing the input language
+//		// and calling the appropriate test methods
+//		for (String cmd : commands) {
+//			String[] temp = cmd.split(" ");
+//			if (temp[0].equals("createGameField")) {
+//				createGameField(temp);
+//			} else if (temp[0].equals("createGameField")) {
+//				createGameField(temp);
+//			} else if (temp[0].equals("addRoad")) {
+//				addRoad(temp);
+//			} else if (temp[0].equals("addChar")) {
+//				addChar(temp);
+//			} else if (temp[0].equals("print")) {
+//				print(temp, args[0]);
+//			} else if (temp[0].equals("refresh")) {
+//				refresh(temp);
+//			} else if (temp[0].equals("addTower")) {
+//				addTower(temp);
+//			} else if (temp[0].equals("addTrap")) {
+//				addTrap(temp);
+//			} else if (temp[0].equals("useStone")) {
+//				useStone(temp);
+//			} else if (temp[0].equals("addStone")) {
+//				addStone(temp);
+//			} else if (temp[0].equals("addFog")) {
+//				addFog(temp);
+//			}
+//
+//		}
+//	}
 
 	// Functions for testing
 
