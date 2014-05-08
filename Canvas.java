@@ -460,121 +460,124 @@ public class Canvas extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(51, 51, 51));
         jPanel1.setPreferredSize(new java.awt.Dimension(594, 490));
 
+        jPanel2.setBackground(new java.awt.Color(80, 80, 80));
         jPanel2.setPreferredSize(new java.awt.Dimension(500, 500));
 
-        field0101.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0101.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0101.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0201.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0201.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0201.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0301.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0301.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0301.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0401.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0401.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0401.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0501.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0501.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0501.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0601.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0601.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0601.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0701.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0701.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0701.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0801.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0801.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0801.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0901.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0901.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0901.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1001.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1001.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1001.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1101.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1101.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1101.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1201.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1201.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1201.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1301.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1301.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1301.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1401.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1401.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1401.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1501.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1501.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1501.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1601.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1601.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1601.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1701.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1701.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1701.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1801.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1801.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1801.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1901.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1901.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1901.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0102.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0102.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0102.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0104.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0104.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0104.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0103.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0103.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0103.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0107.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0107.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0107.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0108.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0108.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0108.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0105.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0105.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0105.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0106.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0106.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0106.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0113.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0113.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0113.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0114.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0114.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0114.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0115.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0115.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0115.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0116.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0116.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0116.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0112.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0112.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0112.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0111.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0111.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0111.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0110.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0110.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0110.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0109.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0109.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0109.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0117.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0117.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0117.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0118.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0118.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0118.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0119.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0119.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0119.setPreferredSize(new java.awt.Dimension(8, 8));
 
+        jLabel63.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         jLabel63.setPreferredSize(new java.awt.Dimension(8, 8));
 
+        jLabel64.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         jLabel64.setPreferredSize(new java.awt.Dimension(8, 8));
 
         jLabel65.setPreferredSize(new java.awt.Dimension(8, 8));
@@ -609,332 +612,334 @@ public class Canvas extends javax.swing.JFrame {
 
         jLabel80.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0302.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0302.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0302.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0303.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0303.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0303.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0304.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0304.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0304.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0305.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0305.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0305.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0306.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0306.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0306.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0307.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0307.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0307.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0308.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0308.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0308.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0309.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0309.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0309.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0310.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0310.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0310.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0311.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0311.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0311.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0312.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0312.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0312.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0313.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0313.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0313.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0314.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0314.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0314.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0315.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0315.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0315.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0316.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0316.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0316.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0317.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0317.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0317.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0318.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0318.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0318.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0319.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0319.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0319.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0402.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0402.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0402.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0403.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0403.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0403.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0404.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0404.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0404.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0405.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0405.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0405.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0406.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0406.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0406.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0407.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0407.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0407.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0408.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0408.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0408.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0409.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0409.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0409.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0410.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0410.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0410.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0411.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0411.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0411.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0412.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0412.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0412.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0413.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0413.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0413.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0414.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0414.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0414.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0415.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0415.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0415.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0416.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0416.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0416.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0417.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0417.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0417.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0418.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0418.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0418.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0419.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0419.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0419.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0502.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0502.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0502.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0503.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0503.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0503.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0504.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0504.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0504.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0505.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0505.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0505.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0506.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0506.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0506.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0507.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0507.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0507.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0508.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0508.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0508.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0509.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0509.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0509.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0510.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0510.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0510.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0511.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0511.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0511.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0512.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0512.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0512.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0513.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0513.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0513.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0514.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0514.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0514.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0515.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0515.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0515.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0516.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0516.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0516.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0517.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0517.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0517.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0518.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0518.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0518.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0519.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0519.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0519.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0602.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0602.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0602.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0603.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0603.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0603.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0604.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0604.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0604.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0605.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0605.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0605.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0606.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0606.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0606.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0607.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0607.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0607.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0608.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0608.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0608.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0609.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0609.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0609.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0610.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0610.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0610.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0611.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0611.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0611.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0612.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0612.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0612.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0613.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0613.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0613.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0614.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0614.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0614.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0615.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0615.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0615.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0616.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0616.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0616.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0617.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0617.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0617.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0618.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0618.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0618.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0619.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0619.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0619.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0702.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0702.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0702.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0703.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0703.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0703.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0704.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0704.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0704.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0705.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0705.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0705.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0706.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0706.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0706.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0707.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0707.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0707.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0708.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0708.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0708.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0709.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0709.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0709.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0710.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0710.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0710.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0711.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0711.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0711.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0712.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0712.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0712.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0713.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0713.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0713.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0714.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0714.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0714.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0715.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0715.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0715.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0716.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0716.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0716.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0717.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0717.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0717.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0718.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0718.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0718.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0719.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0719.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0719.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0802.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0802.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0802.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0803.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0803.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0803.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0804.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0804.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0804.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0805.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0805.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0805.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0806.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0806.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0806.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0807.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0807.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0807.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0808.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0808.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0808.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0809.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0809.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0809.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0810.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0810.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0810.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0811.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0811.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0811.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0812.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0812.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0812.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0813.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0813.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0813.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0814.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0814.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0814.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0815.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0815.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0815.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0816.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0816.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0816.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0817.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0817.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0817.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0818.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0818.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0818.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0819.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0819.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0819.setPreferredSize(new java.awt.Dimension(8, 8));
 
+        jLabel189.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         jLabel189.setPreferredSize(new java.awt.Dimension(8, 8));
 
+        jLabel190.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         jLabel190.setPreferredSize(new java.awt.Dimension(8, 8));
 
         jLabel191.setPreferredSize(new java.awt.Dimension(8, 8));
@@ -969,652 +974,652 @@ public class Canvas extends javax.swing.JFrame {
 
         jLabel206.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0902.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0902.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0902.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0903.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0903.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0903.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0904.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0904.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0904.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0905.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0905.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0905.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0906.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0906.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0906.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0907.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0907.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0907.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0908.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0908.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0908.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0909.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0909.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0909.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0910.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0910.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0910.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0911.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0911.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0911.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0912.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0912.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0912.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0913.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0913.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0913.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0914.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0914.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0914.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0915.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0915.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0915.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0916.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0916.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0916.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0917.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0917.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0917.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0918.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0918.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0918.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0919.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0919.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0919.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1002.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1002.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1002.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1003.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1003.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1003.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1004.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1004.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1004.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1005.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1005.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1005.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1006.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1006.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1006.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1007.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1007.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1007.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1008.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1008.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1008.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1009.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1009.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1009.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1010.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1010.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1010.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1011.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1011.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1011.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1012.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1012.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1012.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1013.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1013.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1013.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1014.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1014.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1014.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1015.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1015.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1015.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1016.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1016.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1016.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1017.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1017.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1017.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1018.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1018.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1018.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1019.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1019.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1019.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1102.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1102.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1102.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1103.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1103.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1103.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1104.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1104.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1104.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1105.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1105.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1105.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1106.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1106.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1106.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1107.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1107.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1107.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1108.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1108.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1108.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1109.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1109.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1109.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1110.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1110.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1110.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1111.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1111.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1111.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1112.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1112.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1112.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1113.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1113.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1113.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1114.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1114.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1114.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1115.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1115.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1115.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1116.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1116.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1116.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1117.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1117.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1117.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1118.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1118.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1118.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1119.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1119.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1119.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1202.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1202.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1202.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1203.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1203.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1203.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1204.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1204.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1204.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1205.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1205.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1205.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1206.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1206.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1206.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1207.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1207.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1207.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1208.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1208.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1208.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1209.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1209.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1209.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1210.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1210.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1210.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1211.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1211.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1211.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1212.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1212.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1212.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1213.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1213.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1213.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1214.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1214.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1214.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1215.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1215.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1215.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1216.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1216.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1216.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1217.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1217.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1217.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1218.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1218.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1218.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1219.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1219.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1219.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1302.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1302.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1302.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1303.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1303.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1303.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1304.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1304.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1304.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1305.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1305.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1305.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1306.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1306.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1306.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1307.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1307.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1307.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1308.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1308.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1308.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1309.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1309.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1309.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1310.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1310.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1310.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1311.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1311.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1311.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1312.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1312.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1312.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1313.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1313.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1313.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1314.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1314.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1314.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1315.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1315.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1315.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1316.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1316.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1316.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1317.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1317.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1317.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1318.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1318.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1318.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1319.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1319.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1319.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1402.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1402.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1402.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1403.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1403.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1403.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1404.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1404.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1404.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1405.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1405.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1405.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1406.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1406.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1406.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1407.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1407.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1407.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1408.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1408.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1408.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1409.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1409.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1409.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1410.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1410.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1410.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1411.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1411.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1411.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1412.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1412.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1412.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1413.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1413.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1413.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1414.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1414.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1414.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1415.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1415.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1415.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1416.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1416.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1416.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1417.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1417.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1417.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1418.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1418.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1418.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1419.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1419.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1419.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1502.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1502.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1502.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1503.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1503.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1503.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1504.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1504.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1504.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1505.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1505.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1505.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1506.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1506.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1506.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1507.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1507.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1507.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1508.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1508.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1508.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1509.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1509.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1509.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1510.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1510.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1510.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1511.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1511.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1511.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1512.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1512.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1512.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1513.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1513.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1513.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1514.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1514.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1514.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1515.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1515.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1515.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1516.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1516.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1516.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1517.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1517.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1517.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1518.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1518.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1518.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1519.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1519.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1519.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1602.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1602.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1602.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1603.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1603.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1603.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1604.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1604.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1604.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1605.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1605.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1605.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1606.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1606.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1606.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1607.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1607.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1607.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1608.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1608.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1608.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1609.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1609.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1609.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1610.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1610.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1610.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1611.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1611.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1611.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1612.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1612.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1612.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1613.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1613.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1613.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1614.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1614.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1614.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1615.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1615.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1615.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1616.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1616.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1616.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1617.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1617.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1617.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1618.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1618.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1618.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1619.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1619.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1619.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1702.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1702.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1702.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1703.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1703.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1703.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1704.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1704.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1704.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1705.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1705.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1705.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1706.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1706.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1706.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1707.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1707.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1707.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1708.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1708.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1708.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1709.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1709.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1709.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1710.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1710.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1710.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1711.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1711.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1711.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1712.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1712.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1712.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1713.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1713.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1713.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1714.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1714.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1714.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1715.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1715.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1715.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1716.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1716.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1716.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1717.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1717.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1717.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1718.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1718.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1718.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1719.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1719.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1719.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1802.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1802.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1802.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1803.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1803.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1803.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1804.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1804.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1804.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1805.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1805.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1805.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1806.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1806.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1806.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1807.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1807.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1807.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1808.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1808.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1808.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1809.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1809.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1809.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1810.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1810.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1810.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1811.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1811.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1811.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1812.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1812.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1812.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1813.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1813.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1813.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1814.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1814.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1814.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1815.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1815.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1815.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1816.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1816.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1816.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1817.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1817.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1817.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1818.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1818.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1818.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1819.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1819.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1819.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1902.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1902.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1902.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1903.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1903.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1903.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1904.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1904.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1904.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1905.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1905.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1905.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1906.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1906.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1906.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1907.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1907.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1907.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1908.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1908.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1908.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1909.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1909.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1909.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1910.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1910.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1910.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1911.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1911.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1911.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1912.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1912.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1912.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1913.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1913.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1913.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1914.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1914.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1914.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1915.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1915.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1915.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1916.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1916.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1916.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1917.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1917.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1917.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1918.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1918.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1918.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field1919.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field1919.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field1919.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0202.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0202.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0202.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0203.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0203.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0203.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0204.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0204.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0204.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0205.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0205.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0205.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0206.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0206.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0206.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0207.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0207.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0207.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0208.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0208.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0208.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0209.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0209.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0209.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0210.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0210.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0210.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0211.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0211.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0211.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0212.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0212.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0212.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0213.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0213.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0213.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0214.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0214.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0214.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0215.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0215.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0215.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0216.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0216.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0216.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0217.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0217.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0217.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0218.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0218.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0218.setPreferredSize(new java.awt.Dimension(8, 8));
 
-        field0219.setIcon(new javax.swing.ImageIcon(getClass().getResource("/test.jpg"))); // NOI18N
+        field0219.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/field/test.jpg"))); // NOI18N
         field0219.setPreferredSize(new java.awt.Dimension(8, 8));
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
@@ -2891,35 +2896,35 @@ public class Canvas extends javax.swing.JFrame {
         jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("Magic stone (12)");
 
-        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/red.jpg"))); // NOI18N
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/store/notselected/red.jpg"))); // NOI18N
 
-        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/green.jpg"))); // NOI18N
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/store/notselected/green.jpg"))); // NOI18N
 
-        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/blue.jpg"))); // NOI18N
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/store/notselected/blue.jpg"))); // NOI18N
 
-        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/yellow.jpg"))); // NOI18N
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/store/notselected/yellow.jpg"))); // NOI18N
 
-        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pink.jpg"))); // NOI18N
+        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/store/notselected/pink.jpg"))); // NOI18N
 
-        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/purple.jpg"))); // NOI18N
+        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/store/notselected/purple.jpg"))); // NOI18N
 
         jLabel13.setBackground(new java.awt.Color(60, 60, 60));
         jLabel13.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         jLabel13.setForeground(new java.awt.Color(255, 255, 255));
         jLabel13.setText("Enemy");
 
-        jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hobbit.jpg"))); // NOI18N
+        jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/enemy/hobbit.jpg"))); // NOI18N
 
         jLabel15.setBackground(new java.awt.Color(60, 60, 60));
         jLabel15.setFont(new java.awt.Font("Times New Roman", 0, 12)); // NOI18N
         jLabel15.setForeground(new java.awt.Color(255, 255, 255));
         jLabel15.setText("Hobbit");
 
-        jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/elf.jpg"))); // NOI18N
+        jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/enemy/elf.jpg"))); // NOI18N
 
-        jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/human.jpg"))); // NOI18N
+        jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/enemy/human.jpg"))); // NOI18N
 
-        jLabel18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/dwarf.jpg"))); // NOI18N
+        jLabel18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/enemy/dwarf.jpg"))); // NOI18N
 
         jLabel19.setBackground(new java.awt.Color(60, 60, 60));
         jLabel19.setFont(new java.awt.Font("Times New Roman", 0, 12)); // NOI18N
