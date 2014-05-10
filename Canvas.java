@@ -434,12 +434,12 @@ public class Canvas extends javax.swing.JFrame {
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
-        jLabel7 = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
-        jLabel9 = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
-        jLabel11 = new javax.swing.JLabel();
-        jLabel12 = new javax.swing.JLabel();
+        redGem = new javax.swing.JLabel();
+        greenGem = new javax.swing.JLabel();
+        blueGem = new javax.swing.JLabel();
+        yellowGem = new javax.swing.JLabel();
+        pinkGem = new javax.swing.JLabel();
+        purpleGem = new javax.swing.JLabel();
         jLabel13 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
         jLabel15 = new javax.swing.JLabel();
@@ -2896,17 +2896,47 @@ public class Canvas extends javax.swing.JFrame {
         jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("Magic stone (12)");
 
-        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/store/notselected/red.jpg"))); // NOI18N
+        redGem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/store/selected/red.jpg"))); // NOI18N
+        redGem.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                redGemMouseClicked(evt);
+            }
+        });
 
-        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/store/notselected/green.jpg"))); // NOI18N
+        greenGem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/store/notselected/green.jpg"))); // NOI18N
+        greenGem.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                greenGemMouseClicked(evt);
+            }
+        });
 
-        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/store/notselected/blue.jpg"))); // NOI18N
+        blueGem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/store/notselected/blue.jpg"))); // NOI18N
+        blueGem.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                blueGemMouseClicked(evt);
+            }
+        });
 
-        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/store/notselected/yellow.jpg"))); // NOI18N
+        yellowGem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/store/notselected/yellow.jpg"))); // NOI18N
+        yellowGem.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                yellowGemMouseClicked(evt);
+            }
+        });
 
-        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/store/notselected/pink.jpg"))); // NOI18N
+        pinkGem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/store/notselected/pink.jpg"))); // NOI18N
+        pinkGem.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                pinkGemMouseClicked(evt);
+            }
+        });
 
-        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/store/notselected/purple.jpg"))); // NOI18N
+        purpleGem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/store/notselected/purple.jpg"))); // NOI18N
+        purpleGem.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                purpleGemMouseClicked(evt);
+            }
+        });
 
         jLabel13.setBackground(new java.awt.Color(60, 60, 60));
         jLabel13.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
@@ -2993,18 +3023,18 @@ public class Canvas extends javax.swing.JFrame {
                                     .addComponent(jLabel6)))
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addContainerGap()
-                                .addComponent(jLabel7)
+                                .addComponent(redGem)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jLabel8)
+                                .addComponent(greenGem)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jLabel9))
+                                .addComponent(blueGem))
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addContainerGap()
-                                .addComponent(jLabel10)
+                                .addComponent(yellowGem)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jLabel11)
+                                .addComponent(pinkGem)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jLabel12))
+                                .addComponent(purpleGem))
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addGap(18, 18, 18)
                                 .addComponent(jLabel13)))
@@ -3060,18 +3090,18 @@ public class Canvas extends javax.swing.JFrame {
                         .addComponent(jLabel6)
                         .addGap(18, 18, 18)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel7)
-                            .addComponent(jLabel8)
-                            .addComponent(jLabel9))
+                            .addComponent(redGem)
+                            .addComponent(greenGem)
+                            .addComponent(blueGem))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabel10)
-                                    .addComponent(jLabel11))
+                                    .addComponent(yellowGem)
+                                    .addComponent(pinkGem))
                                 .addGap(20, 20, 20)
                                 .addComponent(jSeparator3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(jLabel12))
+                            .addComponent(purpleGem))
                         .addGap(18, 18, 18)
                         .addComponent(jLabel13)
                         .addGap(20, 20, 20)
@@ -3117,6 +3147,66 @@ public class Canvas extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void redGemMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_redGemMouseClicked
+        selectedGem = Color.Red;
+        redGem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/store/selected/red.jpg")));
+        purpleGem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/store/notselected/purple.jpg")));
+        pinkGem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/store/notselected/pink.jpg")));
+        yellowGem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/store/notselected/yellow.jpg")));
+        blueGem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/store/notselected/blue.jpg")));
+        greenGem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/store/notselected/green.jpg")));
+    }//GEN-LAST:event_redGemMouseClicked
+
+    private void purpleGemMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_purpleGemMouseClicked
+        selectedGem = Color.Purple;
+        redGem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/store/notselected/red.jpg")));
+        purpleGem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/store/selected/purple.jpg")));
+        pinkGem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/store/notselected/pink.jpg")));
+        yellowGem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/store/notselected/yellow.jpg")));
+        blueGem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/store/notselected/blue.jpg")));
+        greenGem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/store/notselected/green.jpg")));
+    }//GEN-LAST:event_purpleGemMouseClicked
+
+    private void pinkGemMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pinkGemMouseClicked
+        selectedGem = Color.Pink;
+        redGem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/store/notselected/red.jpg")));
+        purpleGem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/store/notselected/purple.jpg")));
+        pinkGem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/store/selected/pink.jpg")));
+        yellowGem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/store/notselected/yellow.jpg")));
+        blueGem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/store/notselected/blue.jpg")));
+        greenGem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/store/notselected/green.jpg")));
+    }//GEN-LAST:event_pinkGemMouseClicked
+
+    private void yellowGemMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_yellowGemMouseClicked
+        selectedGem = Color.Yellow;
+        redGem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/store/notselected/red.jpg")));
+        purpleGem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/store/notselected/purple.jpg")));
+        pinkGem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/store/notselected/pink.jpg")));
+        yellowGem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/store/selected/yellow.jpg")));
+        blueGem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/store/notselected/blue.jpg")));
+        greenGem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/store/notselected/green.jpg")));
+    }//GEN-LAST:event_yellowGemMouseClicked
+
+    private void blueGemMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_blueGemMouseClicked
+        selectedGem = Color.Blue;
+        redGem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/store/notselected/red.jpg")));
+        purpleGem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/store/notselected/purple.jpg")));
+        pinkGem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/store/notselected/pink.jpg")));
+        yellowGem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/store/notselected/yellow.jpg")));
+        blueGem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/store/selected/blue.jpg")));
+        greenGem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/store/notselected/green.jpg")));
+    }//GEN-LAST:event_blueGemMouseClicked
+
+    private void greenGemMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_greenGemMouseClicked
+        selectedGem = Color.Green;
+        redGem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/store/notselected/red.jpg")));
+        purpleGem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/store/notselected/purple.jpg")));
+        pinkGem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/store/notselected/pink.jpg")));
+        yellowGem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/store/notselected/yellow.jpg")));
+        blueGem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/store/notselected/blue.jpg")));
+        greenGem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/grafix/store/selected/green.jpg")));
+    }//GEN-LAST:event_greenGemMouseClicked
 
 //    /**
 //     * @param args the command line arguments
@@ -3168,12 +3258,14 @@ public class Canvas extends javax.swing.JFrame {
     private String getDwarfString(){
         return Integer.toString(dwarf);
     }
+    private Color selectedGem = Color.Red;
     private int mana = 0;
     private int hobbit = 0;
     private int elf = 0;
     private int human = 0;
     private int dwarf = 0;
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel blueGem;
     private javax.swing.JLabel field0101;
     private javax.swing.JLabel field0102;
     private javax.swing.JLabel field0103;
@@ -3535,10 +3627,8 @@ public class Canvas extends javax.swing.JFrame {
     private javax.swing.JLabel field1917;
     private javax.swing.JLabel field1918;
     private javax.swing.JLabel field1919;
+    private javax.swing.JLabel greenGem;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
-    private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel15;
@@ -3582,7 +3672,6 @@ public class Canvas extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel67;
     private javax.swing.JLabel jLabel68;
     private javax.swing.JLabel jLabel69;
-    private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel70;
     private javax.swing.JLabel jLabel71;
     private javax.swing.JLabel jLabel72;
@@ -3593,13 +3682,15 @@ public class Canvas extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel77;
     private javax.swing.JLabel jLabel78;
     private javax.swing.JLabel jLabel79;
-    private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel80;
-    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JSeparator jSeparator2;
     private javax.swing.JSeparator jSeparator3;
+    private javax.swing.JLabel pinkGem;
+    private javax.swing.JLabel purpleGem;
+    private javax.swing.JLabel redGem;
+    private javax.swing.JLabel yellowGem;
     // End of variables declaration//GEN-END:variables
 }
