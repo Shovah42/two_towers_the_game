@@ -1,4 +1,5 @@
 import java.awt.Point;
+import java.awt.event.MouseEvent;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -570,6 +571,101 @@ public class Canvas extends javax.swing.JFrame {
 				file_name.get(18)))); // NOI18N
 		field1901.setPreferredSize(new java.awt.Dimension(8, 8));
 
+		field1901.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1901MouseClicked(evt);
+			}
+		});
+		field1801.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1801MouseClicked(evt);
+			}
+		});
+		field1701.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1701MouseClicked(evt);
+			}
+		});
+		field1601.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1601MouseClicked(evt);
+			}
+		});
+		field1501.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1501MouseClicked(evt);
+			}
+		});
+		field1401.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1401MouseClicked(evt);
+			}
+		});
+		field1301.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1301MouseClicked(evt);
+			}
+		});
+		field1201.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1201MouseClicked(evt);
+			}
+		});
+		field1101.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1101MouseClicked(evt);
+			}
+		});
+		field1001.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1001MouseClicked(evt);
+			}
+		});
+		field0901.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0901MouseClicked(evt);
+			}
+		});
+		field0801.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0801MouseClicked(evt);
+			}
+		});
+		field0701.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0701MouseClicked(evt);
+			}
+		});
+		field0601.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0601MouseClicked(evt);
+			}
+		});
+		field0501.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0501MouseClicked(evt);
+			}
+		});
+		field0401.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0401MouseClicked(evt);
+			}
+		});
+		field0301.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0301MouseClicked(evt);
+			}
+		});
+		field0201.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0201MouseClicked(evt);
+			}
+		});
+		field0101.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0101MouseClicked(evt);
+			}
+		});
 		field0102.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(359)))); // NOI18N
 		field0102.setPreferredSize(new java.awt.Dimension(8, 8));
@@ -642,6 +738,97 @@ public class Canvas extends javax.swing.JFrame {
 				file_name.get(342)))); // NOI18N
 		field0119.setPreferredSize(new java.awt.Dimension(8, 8));
 
+		field0119.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0119MouseClicked(evt);
+			}
+		});
+		field0118.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0118MouseClicked(evt);
+			}
+		});
+		field0117.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0117MouseClicked(evt);
+			}
+		});
+		field0116.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0116MouseClicked(evt);
+			}
+		});
+		field0115.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0115MouseClicked(evt);
+			}
+		});
+		field0114.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0114MouseClicked(evt);
+			}
+		});
+		field0113.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0113MouseClicked(evt);
+			}
+		});
+		field0112.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0112MouseClicked(evt);
+			}
+		});
+		field0111.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0111MouseClicked(evt);
+			}
+		});
+		field0110.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0110MouseClicked(evt);
+			}
+		});
+		field0109.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0109MouseClicked(evt);
+			}
+		});
+		field0108.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0108MouseClicked(evt);
+			}
+		});
+		field0107.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0107MouseClicked(evt);
+			}
+		});
+		field0106.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0106MouseClicked(evt);
+			}
+		});
+		field0105.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0105MouseClicked(evt);
+			}
+		});
+		field0104.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0104MouseClicked(evt);
+			}
+		});
+		field0103.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0103MouseClicked(evt);
+			}
+		});
+		field0102.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0102MouseClicked(evt);
+			}
+		});
+		
 		jLabel63.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(36)))); // NOI18N
 		jLabel63.setPreferredSize(new java.awt.Dimension(8, 8));
@@ -1113,6 +1300,557 @@ public class Canvas extends javax.swing.JFrame {
 		field0819.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(209)))); // NOI18N
 		field0819.setPreferredSize(new java.awt.Dimension(8, 8));
+		
+		field0819.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0819MouseClicked(evt);
+			}
+		});
+		field0818.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0818MouseClicked(evt);
+			}
+		});
+		field0817.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0817MouseClicked(evt);
+			}
+		});
+		field0816.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0816MouseClicked(evt);
+			}
+		});
+		field0815.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0815MouseClicked(evt);
+			}
+		});
+		field0814.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0814MouseClicked(evt);
+			}
+		});
+		field0813.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0813MouseClicked(evt);
+			}
+		});
+		field0812.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0812MouseClicked(evt);
+			}
+		});
+		field0811.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0811MouseClicked(evt);
+			}
+		});
+		field0810.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0810MouseClicked(evt);
+			}
+		});
+		field0809.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0809MouseClicked(evt);
+			}
+		});
+		field0808.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0808MouseClicked(evt);
+			}
+		});
+		field0807.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0807MouseClicked(evt);
+			}
+		});
+		field0806.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0806MouseClicked(evt);
+			}
+		});
+		field0805.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0805MouseClicked(evt);
+			}
+		});
+		field0804.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0804MouseClicked(evt);
+			}
+		});
+		field0803.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0803MouseClicked(evt);
+			}
+		});
+		field0802.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0802MouseClicked(evt);
+			}
+		});
+		field0719.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0719MouseClicked(evt);
+			}
+		});
+		field0718.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0718MouseClicked(evt);
+			}
+		});
+		field0717.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0717MouseClicked(evt);
+			}
+		});
+		field0716.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0716MouseClicked(evt);
+			}
+		});
+		field0715.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0715MouseClicked(evt);
+			}
+		});
+		field0714.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0714MouseClicked(evt);
+			}
+		});
+		field0713.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0713MouseClicked(evt);
+			}
+		});
+		field0712.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0712MouseClicked(evt);
+			}
+		});
+		field0711.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0711MouseClicked(evt);
+			}
+		});
+		field0710.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0710MouseClicked(evt);
+			}
+		});
+		field0709.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0709MouseClicked(evt);
+			}
+		});
+		field0708.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0708MouseClicked(evt);
+			}
+		});
+		field0707.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0707MouseClicked(evt);
+			}
+		});
+		field0706.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0706MouseClicked(evt);
+			}
+		});
+		field0705.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0705MouseClicked(evt);
+			}
+		});
+		field0704.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0704MouseClicked(evt);
+			}
+		});
+		field0703.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0703MouseClicked(evt);
+			}
+		});
+		field0702.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0702MouseClicked(evt);
+			}
+		});
+		field0619.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0619MouseClicked(evt);
+			}
+		});
+		field0618.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0618MouseClicked(evt);
+			}
+		});
+		field0617.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0617MouseClicked(evt);
+			}
+		});
+		field0616.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0616MouseClicked(evt);
+			}
+		});
+		field0615.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0615MouseClicked(evt);
+			}
+		});
+		field0614.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0614MouseClicked(evt);
+			}
+		});
+		field0613.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0613MouseClicked(evt);
+			}
+		});
+		field0612.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0612MouseClicked(evt);
+			}
+		});
+		field0611.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0611MouseClicked(evt);
+			}
+		});
+		field0610.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0610MouseClicked(evt);
+			}
+		});
+		field0609.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0609MouseClicked(evt);
+			}
+		});
+		field0608.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0608MouseClicked(evt);
+			}
+		});
+		field0607.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0607MouseClicked(evt);
+			}
+		});
+		field0606.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0606MouseClicked(evt);
+			}
+		});
+		field0605.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0605MouseClicked(evt);
+			}
+		});
+		field0604.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0604MouseClicked(evt);
+			}
+		});
+		field0603.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0603MouseClicked(evt);
+			}
+		});
+		field0602.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0602MouseClicked(evt);
+			}
+		});
+		field0519.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0519MouseClicked(evt);
+			}
+		});
+		field0518.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0518MouseClicked(evt);
+			}
+		});
+		field0517.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0517MouseClicked(evt);
+			}
+		});
+		field0516.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0516MouseClicked(evt);
+			}
+		});
+		field0515.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0515MouseClicked(evt);
+			}
+		});
+		field0514.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0514MouseClicked(evt);
+			}
+		});
+		field0513.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0513MouseClicked(evt);
+			}
+		});
+		field0512.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0512MouseClicked(evt);
+			}
+		});
+		field0511.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0511MouseClicked(evt);
+			}
+		});
+		field0510.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0510MouseClicked(evt);
+			}
+		});
+		field0509.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0509MouseClicked(evt);
+			}
+		});
+		field0508.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0508MouseClicked(evt);
+			}
+		});
+		field0507.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0507MouseClicked(evt);
+			}
+		});
+		field0506.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0506MouseClicked(evt);
+			}
+		});
+		field0505.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0505MouseClicked(evt);
+			}
+		});
+		field0504.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0504MouseClicked(evt);
+			}
+		});
+		field0503.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0503MouseClicked(evt);
+			}
+		});
+		field0502.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0502MouseClicked(evt);
+			}
+		});
+		field0419.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0419MouseClicked(evt);
+			}
+		});
+		field0418.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0418MouseClicked(evt);
+			}
+		});
+		field0417.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0417MouseClicked(evt);
+			}
+		});
+		field0416.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0416MouseClicked(evt);
+			}
+		});
+		field0415.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0415MouseClicked(evt);
+			}
+		});
+		field0414.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0414MouseClicked(evt);
+			}
+		});
+		field0413.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0413MouseClicked(evt);
+			}
+		});
+		field0412.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0412MouseClicked(evt);
+			}
+		});
+		field0411.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0411MouseClicked(evt);
+			}
+		});
+		field0410.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0410MouseClicked(evt);
+			}
+		});
+		field0409.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0409MouseClicked(evt);
+			}
+		});
+		field0408.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0408MouseClicked(evt);
+			}
+		});
+		field0407.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0407MouseClicked(evt);
+			}
+		});
+		field0406.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0406MouseClicked(evt);
+			}
+		});
+		field0405.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0405MouseClicked(evt);
+			}
+		});
+		field0404.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0404MouseClicked(evt);
+			}
+		});
+		field0403.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0403MouseClicked(evt);
+			}
+		});
+		field0402.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0402MouseClicked(evt);
+			}
+		});
+		field0319.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0319MouseClicked(evt);
+			}
+		});
+		field0318.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0318MouseClicked(evt);
+			}
+		});
+		field0317.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0317MouseClicked(evt);
+			}
+		});
+		field0316.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0316MouseClicked(evt);
+			}
+		});
+		field0315.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0315MouseClicked(evt);
+			}
+		});
+		field0314.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0314MouseClicked(evt);
+			}
+		});
+		field0315.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0315MouseClicked(evt);
+			}
+		});
+		field0314.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0314MouseClicked(evt);
+			}
+		});
+		field0313.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0313MouseClicked(evt);
+			}
+		});
+		field0312.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0312MouseClicked(evt);
+			}
+		});
+		field0311.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0311MouseClicked(evt);
+			}
+		});
+		field0310.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0310MouseClicked(evt);
+			}
+		});
+		field0309.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0309MouseClicked(evt);
+			}
+		});
+		field0308.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0308MouseClicked(evt);
+			}
+		});
+		field0307.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0307MouseClicked(evt);
+			}
+		});
+		field0306.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0306MouseClicked(evt);
+			}
+		});
+		field0305.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0305MouseClicked(evt);
+			}
+		});
+		field0304.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0304MouseClicked(evt);
+			}
+		});
+		field0303.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0303MouseClicked(evt);
+			}
+		});
+		field0302.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0302MouseClicked(evt);
+			}
+		});
 
 		jLabel189.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				"/grafix/field/road.jpg"))); // NOI18N
@@ -1225,7 +1963,96 @@ public class Canvas extends javax.swing.JFrame {
 		field0919.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(190)))); // NOI18N
 		field0919.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field0919.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0919MouseClicked(evt);
+			}
+		});
+		field0918.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0918MouseClicked(evt);
+			}
+		});
+		field0917.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0917MouseClicked(evt);
+			}
+		});
+		field0916.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0916MouseClicked(evt);
+			}
+		});
+		field0915.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0915MouseClicked(evt);
+			}
+		});
+		field0914.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0914MouseClicked(evt);
+			}
+		});
+		field0913.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0913MouseClicked(evt);
+			}
+		});
+		field0912.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0912MouseClicked(evt);
+			}
+		});
+		field0911.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0911MouseClicked(evt);
+			}
+		});
+		field0910.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0910MouseClicked(evt);
+			}
+		});
+		field0909.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0909MouseClicked(evt);
+			}
+		});
+		field0908.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0908MouseClicked(evt);
+			}
+		});
+		field0907.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0907MouseClicked(evt);
+			}
+		});
+		field0906.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0906MouseClicked(evt);
+			}
+		});
+		field0905.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0905MouseClicked(evt);
+			}
+		});
+		field0904.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0904MouseClicked(evt);
+			}
+		});
+		field0903.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0903MouseClicked(evt);
+			}
+		});
+		field0902.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0902MouseClicked(evt);
+			}
+		});
 		field1002.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(188)))); // NOI18N
 		field1002.setPreferredSize(new java.awt.Dimension(8, 8));
@@ -1369,7 +2196,186 @@ public class Canvas extends javax.swing.JFrame {
 		field1119.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(152)))); // NOI18N
 		field1119.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1119.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1119MouseClicked(evt);
+			}
+		});
+		field1118.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1118MouseClicked(evt);
+			}
+		});
+		field1117.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1117MouseClicked(evt);
+			}
+		});
+		field1116.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1116MouseClicked(evt);
+			}
+		});
+		field1115.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1115MouseClicked(evt);
+			}
+		});
+		field1114.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1114MouseClicked(evt);
+			}
+		});
+		field1113.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1113MouseClicked(evt);
+			}
+		});
+		field1112.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1112MouseClicked(evt);
+			}
+		});
+		field1111.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1111MouseClicked(evt);
+			}
+		});
+		field1110.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1110MouseClicked(evt);
+			}
+		});
+		field1109.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1109MouseClicked(evt);
+			}
+		});
+		field1108.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1108MouseClicked(evt);
+			}
+		});
+		field1107.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1107MouseClicked(evt);
+			}
+		});
+		field1106.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1106MouseClicked(evt);
+			}
+		});
+		field1105.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1105MouseClicked(evt);
+			}
+		});
+		field1104.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1104MouseClicked(evt);
+			}
+		});
+		field1103.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1103MouseClicked(evt);
+			}
+		});
+		field1102.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1102MouseClicked(evt);
+			}
+		});
+		field1019.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1019MouseClicked(evt);
+			}
+		});
+		field1018.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1018MouseClicked(evt);
+			}
+		});
+		field1017.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1017MouseClicked(evt);
+			}
+		});
+		field1016.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1016MouseClicked(evt);
+			}
+		});
+		field1015.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1015MouseClicked(evt);
+			}
+		});
+		field1014.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1014MouseClicked(evt);
+			}
+		});
+		field1013.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1013MouseClicked(evt);
+			}
+		});
+		field1012.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1012MouseClicked(evt);
+			}
+		});
+		field1011.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1011MouseClicked(evt);
+			}
+		});
+		field1010.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1010MouseClicked(evt);
+			}
+		});
+		field1009.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1009MouseClicked(evt);
+			}
+		});
+		field1008.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1008MouseClicked(evt);
+			}
+		});
+		field1007.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1007MouseClicked(evt);
+			}
+		});
+		field1006.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1006MouseClicked(evt);
+			}
+		});
+		field1005.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1005MouseClicked(evt);
+			}
+		});
+		field1004.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1004MouseClicked(evt);
+			}
+		});
+		field1003.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1003MouseClicked(evt);
+			}
+		});
+		field1002.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1002MouseClicked(evt);
+			}
+		});
 		field1202.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(150)))); // NOI18N
 		field1202.setPreferredSize(new java.awt.Dimension(8, 8));
@@ -1441,7 +2447,96 @@ public class Canvas extends javax.swing.JFrame {
 		field1219.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(133)))); // NOI18N
 		field1219.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1219.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1219MouseClicked(evt);
+			}
+		});
+		field1218.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1218MouseClicked(evt);
+			}
+		});	
+		field1217.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1217MouseClicked(evt);
+			}
+		});	
+		field1216.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1216MouseClicked(evt);
+			}
+		});	
+		field1215.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1215MouseClicked(evt);
+			}
+		});	
+		field1214.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1214MouseClicked(evt);
+			}
+		});	
+		field1213.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1213MouseClicked(evt);
+			}
+		});	
+		field1212.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1212MouseClicked(evt);
+			}
+		});	
+		field1211.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1211MouseClicked(evt);
+			}
+		});	
+		field1210.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1210MouseClicked(evt);
+			}
+		});	
+		field1209.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1209MouseClicked(evt);
+			}
+		});	
+		field1208.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1208MouseClicked(evt);
+			}
+		});	
+		field1207.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1207MouseClicked(evt);
+			}
+		});	
+		field1206.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1206MouseClicked(evt);
+			}
+		});	
+		field1205.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1205MouseClicked(evt);
+			}
+		});	
+		field1204.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1204MouseClicked(evt);
+			}
+		});	
+		field1203.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1203MouseClicked(evt);
+			}
+		});	
+		field1202.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1202MouseClicked(evt);
+			}
+		});	
 		field1302.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(131)))); // NOI18N
 		field1302.setPreferredSize(new java.awt.Dimension(8, 8));
@@ -1513,7 +2608,96 @@ public class Canvas extends javax.swing.JFrame {
 		field1319.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(114)))); // NOI18N
 		field1319.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1319.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1319MouseClicked(evt);
+			}
+		});
+		field1318.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1318MouseClicked(evt);
+			}
+		});
+		field1317.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1317MouseClicked(evt);
+			}
+		});
+		field1316.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1316MouseClicked(evt);
+			}
+		});
+		field1315.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1315MouseClicked(evt);
+			}
+		});
+		field1314.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1314MouseClicked(evt);
+			}
+		});
+		field1313.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1313MouseClicked(evt);
+			}
+		});
+		field1312.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1312MouseClicked(evt);
+			}
+		});
+		field1311.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1311MouseClicked(evt);
+			}
+		});
+		field1310.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1310MouseClicked(evt);
+			}
+		});
+		field1309.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1309MouseClicked(evt);
+			}
+		});
+		field1308.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1308MouseClicked(evt);
+			}
+		});
+		field1307.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1307MouseClicked(evt);
+			}
+		});
+		field1306.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1306MouseClicked(evt);
+			}
+		});
+		field1305.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1305MouseClicked(evt);
+			}
+		});
+		field1304.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1304MouseClicked(evt);
+			}
+		});
+		field1303.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1303MouseClicked(evt);
+			}
+		});
+		field1302.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1302MouseClicked(evt);
+			}
+		});
 		field1402.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(112)))); // NOI18N
 		field1402.setPreferredSize(new java.awt.Dimension(8, 8));
@@ -1585,359 +2769,800 @@ public class Canvas extends javax.swing.JFrame {
 		field1419.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(95)))); // NOI18N
 		field1419.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1419.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1419MouseClicked(evt);
+			}
+		});
+		field1418.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1418MouseClicked(evt);
+			}
+		});
+		field1417.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1417MouseClicked(evt);
+			}
+		});
+		field1416.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1416MouseClicked(evt);
+			}
+		});
+		field1415.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1415MouseClicked(evt);
+			}
+		});
+		field1414.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1414MouseClicked(evt);
+			}
+		});
+		field1413.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1413MouseClicked(evt);
+			}
+		});
+		field1412.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1412MouseClicked(evt);
+			}
+		});
+		field1411.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1411MouseClicked(evt);
+			}
+		});
+		field1410.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1410MouseClicked(evt);
+			}
+		});
+		field1409.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1409MouseClicked(evt);
+			}
+		});
+		field1408.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1408MouseClicked(evt);
+			}
+		});
+		field1407.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1407MouseClicked(evt);
+			}
+		});
+		field1406.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1406MouseClicked(evt);
+			}
+		});
+		field1405.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1405MouseClicked(evt);
+			}
+		});
+		field1404.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1404MouseClicked(evt);
+			}
+		});
+		field1403.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1403MouseClicked(evt);
+			}
+		});
+		field1402.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1402MouseClicked(evt);
+			}
+		});
 		field1502.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(93)))); // NOI18N
 		field1502.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1502.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1502MouseClicked(evt);
+			}
+		});
 		field1503.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(92)))); // NOI18N
 		field1503.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1503.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1503MouseClicked(evt);
+			}
+		});
 		field1504.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(91)))); // NOI18N
 		field1504.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1504.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1504MouseClicked(evt);
+			}
+		});
 		field1505.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(90)))); // NOI18N
 		field1505.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1505.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1505MouseClicked(evt);
+			}
+		});
 		field1506.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(89)))); // NOI18N
 		field1506.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1506.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1506MouseClicked(evt);
+			}
+		});
 		field1507.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(88)))); // NOI18N
 		field1507.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1507.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1507MouseClicked(evt);
+			}
+		});
 		field1508.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(87)))); // NOI18N
 		field1508.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1508.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1508MouseClicked(evt);
+			}
+		});
 		field1509.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(86)))); // NOI18N
 		field1509.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1509.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1509MouseClicked(evt);
+			}
+		});
 		field1510.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(85)))); // NOI18N
 		field1510.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1510.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1510MouseClicked(evt);
+			}
+		});
 		field1511.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(84)))); // NOI18N
 		field1511.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1511.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1511MouseClicked(evt);
+			}
+		});
 		field1512.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(83)))); // NOI18N
 		field1512.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1512.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1512MouseClicked(evt);
+			}
+		});
 		field1513.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(82)))); // NOI18N
 		field1513.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1513.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1513MouseClicked(evt);
+			}
+		});
 		field1514.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(81)))); // NOI18N
 		field1514.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1514.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1514MouseClicked(evt);
+			}
+		});
 		field1515.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(80)))); // NOI18N
 		field1515.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1515.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1515MouseClicked(evt);
+			}
+		});
 		field1516.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(79)))); // NOI18N
 		field1516.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1516.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1516MouseClicked(evt);
+			}
+		});
 		field1517.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(78)))); // NOI18N
 		field1517.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1517.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1517MouseClicked(evt);
+			}
+		});
 		field1518.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(77)))); // NOI18N
 		field1518.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1518.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1518MouseClicked(evt);
+			}
+		});
 		field1519.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(76)))); // NOI18N
 		field1519.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1519.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1519MouseClicked(evt);
+			}
+		});
 		field1602.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(74)))); // NOI18N
 		field1602.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1602.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1602MouseClicked(evt);
+			}
+		});
 		field1603.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(73)))); // NOI18N
 		field1603.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1603.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1603MouseClicked(evt);
+			}
+		});
 		field1604.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(72)))); // NOI18N
 		field1604.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1604.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1604MouseClicked(evt);
+			}
+		});
 		field1605.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(71)))); // NOI18N
 		field1605.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1605.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1605MouseClicked(evt);
+			}
+		});
 		field1606.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(70)))); // NOI18N
 		field1606.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1606.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1606MouseClicked(evt);
+			}
+		});
 		field1607.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(69)))); // NOI18N
 		field1607.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1607.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1607MouseClicked(evt);
+			}
+		});
 		field1608.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(68)))); // NOI18N
 		field1608.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1608.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1608MouseClicked(evt);
+			}
+		});
 		field1609.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(67)))); // NOI18N
 		field1609.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1609.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1609MouseClicked(evt);
+			}
+		});
 		field1610.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(66)))); // NOI18N
 		field1610.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1610.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1610MouseClicked(evt);
+			}
+		});
 		field1611.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(65)))); // NOI18N
 		field1611.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1611.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1611MouseClicked(evt);
+			}
+		});
 		field1612.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(64)))); // NOI18N
 		field1612.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1612.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1612MouseClicked(evt);
+			}
+		});
 		field1613.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(63)))); // NOI18N
 		field1613.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1613.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1613MouseClicked(evt);
+			}
+		});
 		field1614.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(62)))); // NOI18N
 		field1614.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1614.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1614MouseClicked(evt);
+			}
+		});
 		field1615.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(61)))); // NOI18N
 		field1615.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1615.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1615MouseClicked(evt);
+			}
+		});
 		field1616.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(60)))); // NOI18N
 		field1616.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1616.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1616MouseClicked(evt);
+			}
+		});
 		field1617.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(59)))); // NOI18N
 		field1617.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1617.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1617MouseClicked(evt);
+			}
+		});
 		field1618.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(58)))); // NOI18N
 		field1618.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1618.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1618MouseClicked(evt);
+			}
+		});
 		field1619.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(57)))); // NOI18N
 		field1619.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1619.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1619MouseClicked(evt);
+			}
+		});
 		field1702.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(55)))); // NOI18N
 		field1702.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1702.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1702MouseClicked(evt);
+			}
+		});
 		field1703.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(54)))); // NOI18N
 		field1703.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1703.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1703MouseClicked(evt);
+			}
+		});
 		field1704.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(53)))); // NOI18N
 		field1704.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1704.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1704MouseClicked(evt);
+			}
+		});
 		field1705.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(52)))); // NOI18N
 		field1705.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1705.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1705MouseClicked(evt);
+			}
+		});
 		field1706.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(51)))); // NOI18N
 		field1706.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1706.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1706MouseClicked(evt);
+			}
+		});
 		field1707.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(50)))); // NOI18N
 		field1707.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1707.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1707MouseClicked(evt);
+			}
+		});
 		field1708.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(49)))); // NOI18N
 		field1708.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1708.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1708MouseClicked(evt);
+			}
+		});
 		field1709.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(48)))); // NOI18N
 		field1709.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1709.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1709MouseClicked(evt);
+			}
+		});
 		field1710.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(47)))); // NOI18N
 		field1710.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1710.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1710MouseClicked(evt);
+			}
+		});
 		field1711.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(46)))); // NOI18N
 		field1711.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1711.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1711MouseClicked(evt);
+			}
+		});
 		field1712.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(45)))); // NOI18N
 		field1712.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1712.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1712MouseClicked(evt);
+			}
+		});
 		field1713.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(44)))); // NOI18N
 		field1713.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1713.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1713MouseClicked(evt);
+			}
+		});
 		field1714.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(43)))); // NOI18N
 		field1714.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1714.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1714MouseClicked(evt);
+			}
+		});
 		field1715.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(42)))); // NOI18N
 		field1715.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1715.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1715MouseClicked(evt);
+			}
+		});
 		field1716.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(41)))); // NOI18N
 		field1716.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1716.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1716MouseClicked(evt);
+			}
+		});
 		field1717.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(40)))); // NOI18N
 		field1717.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1717.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1717MouseClicked(evt);
+			}
+		});
 		field1718.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(39)))); // NOI18N
 		field1718.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1718.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1718MouseClicked(evt);
+			}
+		});
 		field1719.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(38)))); // NOI18N
 		field1719.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1719.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1719MouseClicked(evt);
+			}
+		});
 		field1802.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(36)))); // NOI18N
 		field1802.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1802.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1802MouseClicked(evt);
+			}
+		});
 		field1803.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(35)))); // NOI18N
 		field1803.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1803.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1803MouseClicked(evt);
+			}
+		});
 		field1804.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(34)))); // NOI18N
 		field1804.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1804.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1804MouseClicked(evt);
+			}
+		});
 		field1805.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(33)))); // NOI18N
 		field1805.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1805.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1805MouseClicked(evt);
+			}
+		});
 		field1806.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(32)))); // NOI18N
 		field1806.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1806.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1806MouseClicked(evt);
+			}
+		});
 		field1807.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(31)))); // NOI18N
 		field1807.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1807.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1807MouseClicked(evt);
+			}
+		});
 		field1808.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(30)))); // NOI18N
 		field1808.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1808.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1808MouseClicked(evt);
+			}
+		});
 		field1809.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(29)))); // NOI18N
 		field1809.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1809.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1809MouseClicked(evt);
+			}
+		});
 		field1810.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(28)))); // NOI18N
 		field1810.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1810.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1810MouseClicked(evt);
+			}
+		});
 		field1811.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(27)))); // NOI18N
 		field1811.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1811.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1811MouseClicked(evt);
+			}
+		});
 		field1812.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(26)))); // NOI18N
 		field1812.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1812.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1812MouseClicked(evt);
+			}
+		});
 		field1813.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(25)))); // NOI18N
 		field1813.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1813.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1813MouseClicked(evt);
+			}
+		});
 		field1814.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(24)))); // NOI18N
 		field1814.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1814.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1814MouseClicked(evt);
+			}
+		});
 		field1815.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(23)))); // NOI18N
 		field1815.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1815.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1815MouseClicked(evt);
+			}
+		});
 		field1816.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(22)))); // NOI18N
 		field1816.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1816.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1816MouseClicked(evt);
+			}
+		});
 		field1817.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(21)))); // NOI18N
 		field1817.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1817.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1817MouseClicked(evt);
+			}
+		});
 		field1818.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(20)))); // NOI18N
 		field1818.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1818.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1818MouseClicked(evt);
+			}
+		});
 		field1819.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(19)))); // NOI18N
 		field1819.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1819.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1819MouseClicked(evt);
+			}
+		});
 		field1902.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(17)))); // NOI18N
 		field1902.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1902.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1902MouseClicked(evt);
+			}
+		});
 		field1903.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(16)))); // NOI18N
 		field1903.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1903.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1903MouseClicked(evt);
+			}
+		});
 		field1904.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(15)))); // NOI18N
 		field1904.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1904.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1904MouseClicked(evt);
+			}
+		});
 		field1905.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(14)))); // NOI18N
 		field1905.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1905.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1905MouseClicked(evt);
+			}
+		});
 		field1906.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(13)))); // NOI18N
 		field1906.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1906.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1906MouseClicked(evt);
+			}
+		});
 		field1907.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(12)))); // NOI18N
 		field1907.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1907.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1907MouseClicked(evt);
+			}
+		});
 		field1908.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(11)))); // NOI18N
 		field1908.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1908.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1908MouseClicked(evt);
+			}
+		});
 		field1909.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(10)))); // NOI18N
 		field1909.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1909.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1909MouseClicked(evt);
+			}
+		});
 		field1910.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(9)))); // NOI18N
 		field1910.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1910.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1910MouseClicked(evt);
+			}
+		});
 		field1911.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(8)))); // NOI18N
 		field1911.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1911.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1911MouseClicked(evt);
+			}
+		});
 		field1912.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(7)))); // NOI18N
 		field1912.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1912.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1912MouseClicked(evt);
+			}
+		});
 		field1913.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(6)))); // NOI18N
 		field1913.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1913.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1913MouseClicked(evt);
+			}
+		});
 		field1914.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(5)))); // NOI18N
 		field1914.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1914.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1914MouseClicked(evt);
+			}
+		});
 		field1915.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(4)))); // NOI18N
 		field1915.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1915.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1915MouseClicked(evt);
+			}
+		});
 		field1916.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(3)))); // NOI18N
 		field1916.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1916.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1916MouseClicked(evt);
+			}
+		});
 		field1917.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(2)))); // NOI18N
 		field1917.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1917.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1917MouseClicked(evt);
+			}
+		});
 		field1918.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(1)))); // NOI18N
 		field1918.setPreferredSize(new java.awt.Dimension(8, 8));
@@ -1958,75 +3583,149 @@ public class Canvas extends javax.swing.JFrame {
 		field0202.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(340)))); // NOI18N
 		field0202.setPreferredSize(new java.awt.Dimension(8, 8));
+		field0202.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0202MouseClicked(evt);
+			}
+		});
 
 		field0203.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(339)))); // NOI18N
 		field0203.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field0203.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0203MouseClicked(evt);
+			}
+		});
 		field0204.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(338)))); // NOI18N
 		field0204.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field0204.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0204MouseClicked(evt);
+			}
+		});
 		field0205.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(337)))); // NOI18N
 		field0205.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field0205.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0205MouseClicked(evt);
+			}
+		});
 		field0206.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(336)))); // NOI18N
 		field0206.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field0206.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0206MouseClicked(evt);
+			}
+		});
 		field0207.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(335)))); // NOI18N
 		field0207.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field0207.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0207MouseClicked(evt);
+			}
+		});
 		field0208.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(334)))); // NOI18N
 		field0208.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field0208.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0208MouseClicked(evt);
+			}
+		});
 		field0209.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(333)))); // NOI18N
 		field0209.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field0209.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0209MouseClicked(evt);
+			}
+		});
 		field0210.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(332)))); // NOI18N
 		field0210.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field0210.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0210MouseClicked(evt);
+			}
+		});
 		field0211.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(331)))); // NOI18N
 		field0211.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field0211.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0211MouseClicked(evt);
+			}
+		});
 		field0212.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(330)))); // NOI18N
 		field0212.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field0212.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0212MouseClicked(evt);
+			}
+		});
 		field0213.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(329)))); // NOI18N
 		field0213.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field0213.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0213MouseClicked(evt);
+			}
+		});
 		field0214.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(328)))); // NOI18N
 		field0214.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field0214.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0214MouseClicked(evt);
+			}
+		});
 		field0215.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(327)))); // NOI18N
 		field0215.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field0215.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0215MouseClicked(evt);
+			}
+		});
 		field0216.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(326)))); // NOI18N
 		field0216.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field0216.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0216MouseClicked(evt);
+			}
+		});
 		field0217.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(325)))); // NOI18N
 		field0217.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field0217.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0217MouseClicked(evt);
+			}
+		});
 		field0218.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(324)))); // NOI18N
 		field0218.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field0218.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0218MouseClicked(evt);
+			}
+		});
 		field0219.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(323)))); // NOI18N
 		field0219.setPreferredSize(new java.awt.Dimension(8, 8));
+		field0219.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field0219MouseClicked(evt);
+			}
 
+		});
 		javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(
 				jPanel2);
 		jPanel2.setLayout(jPanel2Layout);
@@ -7640,7 +9339,7 @@ public class Canvas extends javax.swing.JFrame {
 	}// GEN-LAST:event_greenGemMouseClicked
 	
 	private void towerMouseClicked(java.awt.event.MouseEvent evt) {
-		
+		selectedGem = Color.Colorless;
 		redGem.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				"/grafix/store/notselected/red.jpg")));
 		purpleGem.setIcon(new javax.swing.ImageIcon(getClass().getResource(
@@ -7662,7 +9361,7 @@ public class Canvas extends javax.swing.JFrame {
 	}
 	
 	private void trapMouseClicked(java.awt.event.MouseEvent evt) {
-		
+		selectedGem = Color.Colorless;
 		redGem.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				"/grafix/store/notselected/red.jpg")));
 		purpleGem.setIcon(new javax.swing.ImageIcon(getClass().getResource(
@@ -7684,45 +9383,1088 @@ public class Canvas extends javax.swing.JFrame {
 	}
 	
 	private void field1919MouseClicked(java.awt.event.MouseEvent evt) {
-		if (map.get(0).isRoad() == false){
-			if ((towerSelected == true) && (mana >= 10)) {
-				file_name.set(0, "/grafix/field/tower/tower.jpg");
-				field1919.setIcon(new javax.swing.ImageIcon(getClass().getResource(
-						file_name.get(0)))); // NOI18N
-				mana -= 10;
-				jLabel3.setText(getManaString());
-			}
-		}
-		else{
-			if((trapSelected == true) && (mana >= 5)) {
-				file_name.set(0, "/grafix/field/trap/trap.jpg");
-				field1919.setIcon(new javax.swing.ImageIcon(getClass().getResource(
-						file_name.get(0)))); // NOI18N
-				mana -= 5;
-				jLabel3.setText(getManaString());
-			}
-		}
+		click(field1919, 0);
 	}
 	
 	private void field1918MouseClicked(java.awt.event.MouseEvent evt) {
-		if (map.get(1).isRoad() == false){
-			if ((towerSelected == true) && (mana >= 10)) {
-				file_name.set(1, "/grafix/field/tower/tower.jpg");
-				field1918.setIcon(new javax.swing.ImageIcon(getClass().getResource(
-						file_name.get(0)))); // NOI18N
-				mana -= 10;
-				jLabel3.setText(getManaString());
-			}
-		}
-		else{
-			if((trapSelected == true) && (mana >= 5)) {
-				file_name.set(1, "/grafix/field/trap/trap.jpg");
-				field1918.setIcon(new javax.swing.ImageIcon(getClass().getResource(
-						file_name.get(1)))); // NOI18N
-				mana -= 5;
-				jLabel3.setText(getManaString());
-			}
-		}
+		click(field1918, 1);
+	}
+	private void field1917MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1917, 2);
+	}
+	private void field1916MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1916, 3);
+	}
+	private void field1915MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1915, 4);
+	}
+	private void field1914MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1914, 5);
+	}
+	private void field1913MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1913, 6);
+	}
+	private void field1912MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1912, 7);
+	}
+	private void field1911MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1911, 8);
+	}
+	private void field1910MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1910, 9);
+	}
+	private void field1909MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1909, 10);
+	}
+	private void field1908MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1908, 11);
+	}
+	private void field1907MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1907, 12);
+	}
+	private void field1906MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1906, 13);
+	}
+	private void field1905MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1905, 14);
+	}
+	private void field1904MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1904, 15);
+	}
+	private void field1903MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1903, 16);
+	}
+	private void field1902MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1902, 17);
+	}
+	private void field1901MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1901, 18);
+	}
+	private void field1819MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1819, 19);
+	}
+	private void field1818MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1818, 20);
+	}
+	private void field1817MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1817, 21);
+	}
+	private void field1816MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1816, 22);
+	}
+	private void field1815MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1815, 23);
+	}
+	private void field1814MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1814, 24);
+	}
+	private void field1813MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1813, 25);
+	}
+	private void field1812MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1812, 26);
+	}
+	private void field1811MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1811, 27);
+	}
+	private void field1810MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1810, 28);
+	}
+	private void field1809MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1809, 29);
+	}
+	private void field1808MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1808, 30);
+	}
+	private void field1807MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1807, 31);
+	}
+	private void field1806MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1806, 32);
+	}
+	private void field1805MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1805, 33);
+	}
+	private void field1804MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1804, 34);
+	}
+	private void field1803MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1803, 35);
+	}
+	private void field1802MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1802, 36);
+	}
+	private void field1801MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1801, 37);
+	}
+	private void field1719MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1719, 38);
+	}
+	private void field1718MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1718, 39);
+	}
+	private void field1717MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1717, 40);
+	}
+	private void field1716MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1716, 41);
+	}
+	private void field1715MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1715, 42);
+	}
+	private void field1714MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1714, 43);
+	}
+	private void field1713MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1713, 44);
+	}
+	private void field1712MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1712, 45);
+	}
+	private void field1711MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1711, 46);
+	}
+	private void field1710MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1710, 47);
+	}
+	private void field1709MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1709, 48);
+	}
+	private void field1708MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1708, 49);
+	}
+	private void field1707MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1707, 50);
+	}
+	private void field1706MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1706, 51);
+	}
+	private void field1705MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1705, 52);
+	}
+	private void field1704MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1704, 53);
+	}
+	private void field1703MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1703, 54);
+	}
+	private void field1702MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1702, 55);
+	}
+	private void field1701MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1701, 56);
+	}
+	private void field1619MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1619, 57);
+	}
+	private void field1618MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1618, 58);
+	}
+	private void field1617MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1617, 59);
+	}
+	private void field1616MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1616, 60);
+	}
+	private void field1615MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1615, 61);
+	}
+	private void field1614MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1614, 62);
+	}
+	private void field1613MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1613, 63);
+	}
+	private void field1612MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1612, 64);
+	}
+	private void field1611MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1611, 65);
+	}
+	private void field1610MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1610, 66);
+	}
+	private void field1609MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1609, 67);
+	}
+	private void field1608MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1608, 68);
+	}
+	private void field1607MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1607, 69);
+	}
+	private void field1606MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1606, 70);
+	}
+	private void field1605MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1605, 71);
+	}
+	private void field1604MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1604, 72);
+	}
+	private void field1603MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1603, 73);
+	}
+	private void field1602MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1602, 74);
+	}
+	private void field1601MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1601, 75);
+	}
+	private void field1519MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1519, 76);
+	}
+	private void field1518MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1518, 77);
+	}
+	private void field1517MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1517, 78);
+	}
+	private void field1516MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1516, 79);
+	}
+	private void field1515MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1515, 80);
+	}
+	private void field1514MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1514, 81);
+	}
+	private void field1513MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1513, 82);
+	}
+	private void field1512MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1512, 83);
+	}
+	private void field1511MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1511, 84);
+	}
+	private void field1510MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1510, 85);
+	}
+	private void field1509MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1509, 86);
+	}
+	private void field1508MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1508, 87);
+	}
+	private void field1507MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1507, 88);
+	}
+	private void field1506MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1506, 89);
+	}
+	private void field1505MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1505, 90);
+	}
+	private void field1504MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1504, 91);
+	}
+	private void field1503MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1503, 92);
+	}
+	private void field1502MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1502, 93);
+	}
+	private void field1501MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1501, 94);
+	}
+	private void field1419MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1419, 95);
+	}
+	private void field1418MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1418, 96);
+	}
+	private void field1417MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1417, 97);
+	}
+	private void field1416MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1416, 98);
+	}
+	private void field1415MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1415, 99);
+	}
+	private void field1414MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1414, 100);
+	}
+	private void field1413MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1413, 101);
+	}
+	private void field1412MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1412, 102);
+	}
+	private void field1411MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1411, 103);
+	}
+	private void field1410MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1410, 104);
+	}
+	private void field1409MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1409, 105);
+	}
+	private void field1408MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1408, 106);
+	}
+	private void field1407MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1407, 107);
+	}
+	private void field1406MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1406, 108);
+	}
+	private void field1405MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1405, 109);
+	}
+	private void field1404MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1404, 110);
+	}
+	private void field1403MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1403, 111);
+	}
+	private void field1402MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1402, 112);
+	}
+	private void field1401MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1401, 113);
+	}
+	private void field1319MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1319, 114);
+	}
+	private void field1318MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1318, 115);
+	}
+	private void field1317MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1317, 116);
+	}
+	private void field1316MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1316, 117);
+	}
+	private void field1315MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1315, 118);
+	}
+	private void field1314MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1314, 119);
+	}
+	private void field1313MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1313, 120);
+	}
+	private void field1312MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1312, 121);
+	}
+	private void field1311MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1311, 122);
+	}
+	private void field1310MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1310, 123);
+	}
+	private void field1309MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1309, 124);
+	}
+	private void field1308MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1308, 125);
+	}
+	private void field1307MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1307, 126);
+	}
+	private void field1306MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1306, 127);
+	}
+	private void field1305MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1305, 128);
+	}
+	private void field1304MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1304, 129);
+	}
+	private void field1303MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1303, 130);
+	}
+	private void field1302MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1302, 131);
+	}
+	private void field1301MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1301, 132);
+	}
+	private void field1219MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1219, 133);
+	}
+	private void field1218MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1218, 134);
+	}
+	private void field1217MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1217, 135);
+	}
+	private void field1216MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1216, 136);
+	}
+	private void field1215MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1215, 137);
+	}
+	private void field1214MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1214, 138);
+	}
+	private void field1213MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1213, 139);
+	}
+	private void field1212MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1212, 140);
+	}
+	private void field1211MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1211, 141);
+	}
+	private void field1210MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1210, 142);
+	}
+	private void field1209MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1209, 143);
+	}
+	private void field1208MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1208, 144);
+	}
+	private void field1207MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1207, 145);
+	}
+	private void field1206MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1206, 146);
+	}
+	private void field1205MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1205, 147);
+	}
+	private void field1204MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1204, 148);
+	}
+	private void field1203MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1203, 149);
+	}
+	private void field1202MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1202, 150);
+	}
+	private void field1201MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1201, 151);
+	}
+	private void field1119MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1119, 152);
+	}
+	private void field1118MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1118, 153);
+	}
+	private void field1117MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1117, 154);
+	}
+	private void field1116MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1116, 155);
+	}
+	private void field1115MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1115, 156);
+	}
+	private void field1114MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1114, 157);
+	}
+	private void field1113MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1113, 158);
+	}
+	private void field1112MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1112, 159);
+	}
+	private void field1111MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1111, 160);
+	}
+	private void field1110MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1110, 161);
+	}
+	private void field1109MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1109, 162);
+	}
+	private void field1108MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1108, 163);
+	}
+	private void field1107MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1107, 164);
+	}
+	private void field1106MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1106, 165);
+	}
+	private void field1105MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1105, 166);
+	}
+	private void field1104MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1104, 167);
+	}
+	private void field1103MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1103, 168);
+	}
+	private void field1102MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1102, 169);
+	}
+	private void field1101MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1101, 170);
+	}
+	private void field1019MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1019, 171);
+	}
+	private void field1018MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1018, 172);
+	}
+	private void field1017MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1017, 173);
+	}
+	private void field1016MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1016, 174);
+	}
+	private void field1015MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1015, 175);
+	}
+	private void field1014MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1014, 176);
+	}
+	private void field1013MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1013, 177);
+	}
+	private void field1012MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1012, 178);
+	}
+	private void field1011MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1011, 179);
+	}
+	private void field1010MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1010, 180);
+	}
+	private void field1009MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1009, 181);
+	}
+	private void field1008MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1008, 182);
+	}
+	private void field1007MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1007, 183);
+	}
+	private void field1006MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1006, 184);
+	}
+	private void field1005MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1005, 185);
+	}
+	private void field1004MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1004, 186);
+	}
+	private void field1003MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1003, 187);
+	}
+	private void field1002MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1002, 188);
+	}
+	private void field1001MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field1001, 189);
+	}
+	private void field0919MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0919, 190);
+	}
+	private void field0918MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0918, 191);
+	}
+	private void field0917MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0917, 192);
+	}
+	private void field0916MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0916, 193);
+	}
+	private void field0915MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0915, 194);
+	}
+	private void field0914MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0914, 195);
+	}
+	private void field0913MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0913, 196);
+	}
+	private void field0912MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0912, 197);
+	}
+	private void field0911MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0911, 198);
+	}
+	private void field0910MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0910, 199);
+	}
+	private void field0909MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0909, 200);
+	}
+	private void field0908MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0908, 201);
+	}
+	private void field0907MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0907, 202);
+	}
+	private void field0906MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0906, 203);
+	}
+	private void field0905MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0905, 204);
+	}
+	private void field0904MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0904, 205);
+	}
+	private void field0903MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0903, 206);
+	}
+	private void field0902MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0902, 207);
+	}
+	private void field0901MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0901, 208);
+	}
+	private void field0819MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0819, 209);
+	}
+	private void field0818MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0818, 210);
+	}
+	private void field0817MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0817, 211);
+	}
+	private void field0816MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0816, 212);
+	}
+	private void field0815MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0815, 213);
+	}
+	private void field0814MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0814, 214);
+	}
+	private void field0813MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0813, 215);
+	}
+	private void field0812MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0812, 216);
+	}
+	private void field0811MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0811, 217);
+	}
+	private void field0810MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0810, 218);
+	}
+	private void field0809MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0809, 219);
+	}
+	private void field0808MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0808, 220);
+	}
+	private void field0807MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0807, 221);
+	}
+	private void field0806MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0806, 222);
+	}
+	private void field0805MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0805, 223);
+	}
+	private void field0804MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0804, 224);
+	}
+	private void field0803MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0803, 225);
+	}
+	private void field0802MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0802, 226);
+	}
+	private void field0801MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0801, 227);
+	}
+	private void field0719MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0719, 228);
+	}
+	private void field0718MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0718, 229);
+	}
+	private void field0717MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0717, 230);
+	}
+	private void field0716MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0716, 231);
+	}
+	private void field0715MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0715, 232);
+	}
+	private void field0714MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0714, 233);
+	}
+	private void field0713MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0713, 234);
+	}
+	private void field0712MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0712, 235);
+	}
+	private void field0711MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0711, 236);
+	}
+	private void field0710MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0710, 237);
+	}
+	private void field0709MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0709, 238);
+	}
+	private void field0708MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0708, 239);
+	}
+	private void field0707MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0707, 240);
+	}
+	private void field0706MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0706, 241);
+	}
+	private void field0705MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0705, 242);
+	}
+	private void field0704MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0704, 243);
+	}
+	private void field0703MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0703, 244);
+	}
+	private void field0702MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0702, 245);
+	}
+	private void field0701MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0701, 246);
+	}
+	private void field0619MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0619, 247);
+	}
+	private void field0618MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0618, 248);
+	}
+	private void field0617MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0617, 249);
+	}
+	private void field0616MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0616, 250);
+	}
+	private void field0615MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0615, 251);
+	}
+	private void field0614MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0614, 252);
+	}
+	private void field0613MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0613, 253);
+	}
+	private void field0612MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0612, 254);
+	}
+	private void field0611MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0611, 255);
+	}
+	private void field0610MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0610, 256);
+	}
+	private void field0609MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0609, 257);
+	}
+	private void field0608MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0608, 258);
+	}
+	private void field0607MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0607, 259);
+	}
+	private void field0606MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0606, 260);
+	}
+	private void field0605MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0605, 261);
+	}
+	private void field0604MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0604, 262);
+	}
+	private void field0603MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0603, 263);
+	}
+	private void field0602MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0602, 264);
+	}
+	private void field0601MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0601, 265);
+	}
+	private void field0519MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0519, 266);
+	}
+	private void field0518MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0518, 267);
+	}
+	private void field0517MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0517, 268);
+	}
+	private void field0516MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0516, 269);
+	}
+	private void field0515MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0515, 270);
+	}
+	private void field0514MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0514, 271);
+	}
+	private void field0513MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0513, 272);
+	}
+	private void field0512MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0512, 273);
+	}
+	private void field0511MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0511, 274);
+	}
+	private void field0510MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0510, 275);
+	}
+	private void field0509MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0509, 276);
+	}
+	private void field0508MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0508, 277);
+	}
+	private void field0507MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0507, 278);
+	}
+	private void field0506MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0506, 279);
+	}
+	private void field0505MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0505, 280);
+	}
+	private void field0504MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0504, 281);
+	}
+	private void field0503MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0503, 282);
+	}
+	private void field0502MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0502, 283);
+	}
+	private void field0501MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0501, 284);
+	}
+	private void field0419MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0419, 285);
+	}
+	private void field0418MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0418, 286);
+	}
+	private void field0417MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0417, 287);
+	}
+	private void field0416MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0416, 288);
+	}
+	private void field0415MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0415, 289);
+	}
+	private void field0414MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0414, 290);
+	}
+	private void field0413MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0413, 291);
+	}
+	private void field0412MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0412, 292);
+	}
+	private void field0411MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0411, 293);
+	}
+	private void field0410MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0410, 294);
+	}
+	private void field0409MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0409, 295);
+	}
+	private void field0408MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0408, 296);
+	}
+	private void field0407MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0407, 297);
+	}
+	private void field0406MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0406, 298);
+	}
+	private void field0405MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0405, 299);
+	}
+	private void field0404MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0404, 300);
+	}
+	private void field0403MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0403, 301);
+	}
+	private void field0402MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0402, 302);
+	}
+	private void field0401MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0401, 303);
+	}
+	private void field0319MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0319, 304);
+	}
+	private void field0318MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0318, 305);
+	}
+	private void field0317MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0317, 306);
+	}
+	private void field0316MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0316, 307);
+	}
+	private void field0315MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0315, 308);
+	}
+	private void field0314MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0314, 309);
+	}
+	private void field0313MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0313, 310);
+	}
+	private void field0312MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0312, 311);
+	}
+	private void field0311MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0311, 312);
+	}
+	private void field0310MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0310, 313);
+	}
+	private void field0309MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0309, 314);
+	}
+	private void field0308MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0308, 315);
+	}
+	private void field0307MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0307, 316);
+	}
+	private void field0306MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0306, 317);
+	}
+	private void field0305MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0305, 318);
+	}
+	private void field0304MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0304, 319);
+	}
+	private void field0303MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0303, 320);
+	}
+	private void field0302MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0302, 321);
+	}
+	private void field0301MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0301, 322);
+	}
+	private void field0219MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0219, 323);
+	}
+	private void field0218MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0218, 324);
+	}
+	private void field0217MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0217, 325);
+	}
+	private void field0216MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0216, 326);
+	}
+	private void field0215MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0215, 327);
+	}
+	private void field0214MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0214, 328);
+	}
+	private void field0213MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0213, 329);
+	}
+	private void field0212MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0212, 330);
+	}
+	private void field0211MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0211, 331);
+	}
+	private void field0210MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0210, 332);
+	}
+	private void field0209MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0209, 333);
+	}
+	private void field0208MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0208, 334);
+	}
+	private void field0207MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0207, 335);
+	}
+	private void field0206MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0206, 336);
+	}
+	private void field0205MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0205, 337);
+	}
+	private void field0204MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0204, 338);
+	}
+	private void field0203MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0203, 339);
+	}
+	private void field0202MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0202, 340);
+	}
+	private void field0201MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0201, 341);
+	}
+	private void field0119MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0119, 342);
+	}
+	private void field0118MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0118, 343);
+	}
+	private void field0117MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0117, 344);
+	}
+	private void field0116MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0116, 345);
+	}
+	private void field0115MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0115, 346);
+	}
+	private void field0114MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0114, 347);
+	}
+	private void field0113MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0113, 348);
+	}
+	private void field0112MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0112, 349);
+	}
+	private void field0111MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0111, 350);
+	}
+	private void field0110MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0110, 351);
+	}
+	private void field0109MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0109, 352);
+	}
+	private void field0108MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0108, 353);
+	}
+	private void field0107MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0107, 354);
+	}
+	private void field0106MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0106, 355);
+	}
+	private void field0105MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0105, 356);
+	}
+	private void field0104MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0104, 357);
+	}
+	private void field0103MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0103, 358);
+	}
+	private void field0102MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0102, 359);
+	}
+	private void field0101MouseClicked(java.awt.event.MouseEvent evt) {
+		click(field0101, 360);
 	}
 
 	// /**
@@ -7787,12 +10529,104 @@ public class Canvas extends javax.swing.JFrame {
 	private String getDwarfString() {
 		return Integer.toString(dwarf);
 	}
+	
+	
+	private void click(javax.swing.JLabel field, int fieldSeq) {
+		
+		if (map.get(fieldSeq).isRoad() == false){
+			if ((towerSelected == true) && (mana >= 10) && map.get(fieldSeq).isFree() == true) {
+				file_name.set(fieldSeq, "/grafix/field/tower/tower.jpg");
+				field.setIcon(new javax.swing.ImageIcon(getClass().getResource(
+						file_name.get(fieldSeq)))); // NOI18N
+				mana -= 10;
+				jLabel3.setText(getManaString());
+				selectedGem = Color.Colorless;
+				map.get(fieldSeq).setFree(false);
+			}
+			if((selectedGem == Color.Green) && (mana >= 12) && map.get(fieldSeq).isFree() == false){
+				file_name.set(fieldSeq, "/grafix/field/tower/towerwhitgreengem.jpg");
+				field.setIcon(new javax.swing.ImageIcon(getClass().getResource(
+						file_name.get(fieldSeq)))); // NOI18N
+				mana -= 12;
+				jLabel3.setText(getManaString());
+				selectedGem = Color.Colorless;
+			}
+			if((selectedGem == Color.Blue) && (mana >= 12) && map.get(fieldSeq).isFree() == false){
+				file_name.set(fieldSeq, "/grafix/field/tower/towerwhitbluegem.jpg");
+				field.setIcon(new javax.swing.ImageIcon(getClass().getResource(
+						file_name.get(fieldSeq)))); // NOI18N
+				mana -= 12;
+				jLabel3.setText(getManaString());
+				selectedGem = Color.Colorless;
+			}
+			if((selectedGem == Color.Red) && (mana >= 12) && map.get(fieldSeq).isFree() == false){
+				file_name.set(fieldSeq, "/grafix/field/tower/towerwhitredgem.jpg");
+				field.setIcon(new javax.swing.ImageIcon(getClass().getResource(
+						file_name.get(fieldSeq)))); // NOI18N
+				mana -= 12;
+				jLabel3.setText(getManaString());
+				selectedGem = Color.Colorless;
+			}
+			if((selectedGem == Color.Yellow) && (mana >= 12) && map.get(fieldSeq).isFree() == false){
+				file_name.set(fieldSeq, "/grafix/field/tower/towerwhityellowgem.jpg");
+				field.setIcon(new javax.swing.ImageIcon(getClass().getResource(
+						file_name.get(fieldSeq)))); // NOI18N
+				mana -= 12;
+				jLabel3.setText(getManaString());
+				selectedGem = Color.Colorless;
+			}
+			if((selectedGem == Color.Pink) && (mana >= 12) && map.get(fieldSeq).isFree() == false){
+				file_name.set(fieldSeq, "/grafix/field/tower/towerwhitpinkgem.jpg");
+				field.setIcon(new javax.swing.ImageIcon(getClass().getResource(
+						file_name.get(fieldSeq)))); // NOI18N
+				mana -= 12;
+				jLabel3.setText(getManaString());
+				selectedGem = Color.Colorless;
+			}
+			if((selectedGem == Color.Purple) && (mana >= 12) && map.get(fieldSeq).isFree() == false){
+				file_name.set(fieldSeq, "/grafix/field/tower/towerwhitpurplegem.jpg");
+				field.setIcon(new javax.swing.ImageIcon(getClass().getResource(
+						file_name.get(fieldSeq)))); // NOI18N
+				mana -= 12;
+				jLabel3.setText(getManaString());
+				selectedGem = Color.Colorless;
+			}
+		}
+		else{
+			if((trapSelected == true) && (mana >= 5)) {
+				file_name.set(fieldSeq, "/grafix/field/trap/trap.jpg");
+				field.setIcon(new javax.swing.ImageIcon(getClass().getResource(
+						file_name.get(fieldSeq)))); // NOI18N
+				mana -= 5;
+				jLabel3.setText(getManaString());
+			}
+		}
+		
+		selectedGem = Color.Colorless;
+		redGem.setIcon(new javax.swing.ImageIcon(getClass().getResource(
+				"/grafix/store/notselected/red.jpg")));
+		purpleGem.setIcon(new javax.swing.ImageIcon(getClass().getResource(
+				"/grafix/store/notselected/purple.jpg")));
+		pinkGem.setIcon(new javax.swing.ImageIcon(getClass().getResource(
+				"/grafix/store/notselected/pink.jpg")));
+		yellowGem.setIcon(new javax.swing.ImageIcon(getClass().getResource(
+				"/grafix/store/notselected/yellow.jpg")));
+		blueGem.setIcon(new javax.swing.ImageIcon(getClass().getResource(
+				"/grafix/store/notselected/blue.jpg")));
+		greenGem.setIcon(new javax.swing.ImageIcon(getClass().getResource(
+				"/grafix/store/notselected/green.jpg")));
+		jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+		jLabel5.setForeground(new java.awt.Color(255, 255, 255));
+		
+		towerSelected = false;
+		trapSelected = false;
+	}
 
-	private Color selectedGem = Color.Red;
+	private Color selectedGem = Color.Colorless;
 	GameMaster gamem = GameMaster.getInstance();
 	boolean towerSelected = false;
 	boolean trapSelected = false;
-	private int mana = 20;
+	private int mana = 30;
 	private int hobbit = 0;
 	private int elf = 0;
 	private int human = 0;
