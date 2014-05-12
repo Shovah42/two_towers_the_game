@@ -24,7 +24,7 @@ public class Field implements Monitor, Drawable {
      */
     public Field() {
         this.visitables = new ArrayList<Visitable>();
-        this.roadmanager = Geometry.getInstance();
+     //   this.roadmanager = Geometry.getInstance();
         this.free = true;
         this.id = IdCreator.getNextFieldId();
     }
