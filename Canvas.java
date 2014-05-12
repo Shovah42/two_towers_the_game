@@ -35,9 +35,9 @@ public class Canvas extends javax.swing.JFrame {
 	// desc="Generated Code">//GEN-BEGIN:initComponents
 	private void initComponents() {
 
-		List<Field> map = Geometry.getInstance().getMap();
-		List<String> file_name = new ArrayList<String>();
-		GameMaster gm = GameMaster.getInstance();
+		
+	
+		
 
 		// itt állítsátok be a képeket! máshol nem kell bántani
 
@@ -56,7 +56,7 @@ public class Canvas extends javax.swing.JFrame {
 
 			}
 		}
-
+		
 		jPanel1 = new javax.swing.JPanel();
 		jSeparator1 = new javax.swing.JSeparator();
 		jSeparator2 = new javax.swing.JSeparator();
@@ -1941,10 +1941,19 @@ public class Canvas extends javax.swing.JFrame {
 		field1918.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(1)))); // NOI18N
 		field1918.setPreferredSize(new java.awt.Dimension(8, 8));
-
+		field1918.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1918MouseClicked(evt);
+			}
+		});
 		field1919.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(0)))); // NOI18N
 		field1919.setPreferredSize(new java.awt.Dimension(8, 8));
+		field1919.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				field1919MouseClicked(evt);
+			}
+		});
 
 		field0202.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				file_name.get(340)))); // NOI18N
@@ -6968,11 +6977,21 @@ public class Canvas extends javax.swing.JFrame {
 		jLabel4.setFont(new java.awt.Font("Times New Roman", 0, 12)); // NOI18N
 		jLabel4.setForeground(new java.awt.Color(255, 255, 255));
 		jLabel4.setText("Tower (10)");
+		jLabel4.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				towerMouseClicked(evt);
+			}
+		});
 
 		jLabel5.setBackground(new java.awt.Color(60, 60, 60));
 		jLabel5.setFont(new java.awt.Font("Times New Roman", 0, 12)); // NOI18N
 		jLabel5.setForeground(new java.awt.Color(255, 255, 255));
 		jLabel5.setText("Trap (5)");
+		jLabel5.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				trapMouseClicked(evt);
+			}
+		});
 
 		jLabel6.setFont(new java.awt.Font("Times New Roman", 0, 12)); // NOI18N
 		jLabel6.setForeground(new java.awt.Color(255, 255, 255));
@@ -7486,6 +7505,8 @@ public class Canvas extends javax.swing.JFrame {
 		pack();
 	}// </editor-fold>//GEN-END:initComponents
 
+
+	
 	private void redGemMouseClicked(java.awt.event.MouseEvent evt) {// GEN-FIRST:event_redGemMouseClicked
 		selectedGem = Color.Red;
 		redGem.setIcon(new javax.swing.ImageIcon(getClass().getResource(
@@ -7500,6 +7521,12 @@ public class Canvas extends javax.swing.JFrame {
 				"/grafix/store/notselected/blue.jpg")));
 		greenGem.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				"/grafix/store/notselected/green.jpg")));
+		jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+		jLabel5.setForeground(new java.awt.Color(255, 255, 255));
+		
+		towerSelected = false;
+		trapSelected = false;
+
 	}// GEN-LAST:event_redGemMouseClicked
 
 	private void purpleGemMouseClicked(java.awt.event.MouseEvent evt) {// GEN-FIRST:event_purpleGemMouseClicked
@@ -7516,6 +7543,12 @@ public class Canvas extends javax.swing.JFrame {
 				"/grafix/store/notselected/blue.jpg")));
 		greenGem.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				"/grafix/store/notselected/green.jpg")));
+		jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+		jLabel5.setForeground(new java.awt.Color(255, 255, 255));
+		
+		towerSelected = false;
+		trapSelected = false;
+
 	}// GEN-LAST:event_purpleGemMouseClicked
 
 	private void pinkGemMouseClicked(java.awt.event.MouseEvent evt) {// GEN-FIRST:event_pinkGemMouseClicked
@@ -7532,6 +7565,12 @@ public class Canvas extends javax.swing.JFrame {
 				"/grafix/store/notselected/blue.jpg")));
 		greenGem.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				"/grafix/store/notselected/green.jpg")));
+		jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+		jLabel5.setForeground(new java.awt.Color(255, 255, 255));
+		
+		towerSelected = false;
+		trapSelected = false;
+
 	}// GEN-LAST:event_pinkGemMouseClicked
 
 	private void yellowGemMouseClicked(java.awt.event.MouseEvent evt) {// GEN-FIRST:event_yellowGemMouseClicked
@@ -7548,6 +7587,12 @@ public class Canvas extends javax.swing.JFrame {
 				"/grafix/store/notselected/blue.jpg")));
 		greenGem.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				"/grafix/store/notselected/green.jpg")));
+		jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+		jLabel5.setForeground(new java.awt.Color(255, 255, 255));
+		
+		towerSelected = false;
+		trapSelected = false;
+
 	}// GEN-LAST:event_yellowGemMouseClicked
 
 	private void blueGemMouseClicked(java.awt.event.MouseEvent evt) {// GEN-FIRST:event_blueGemMouseClicked
@@ -7564,6 +7609,12 @@ public class Canvas extends javax.swing.JFrame {
 				"/grafix/store/selected/blue.jpg")));
 		greenGem.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				"/grafix/store/notselected/green.jpg")));
+		jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+		jLabel5.setForeground(new java.awt.Color(255, 255, 255));
+		
+		towerSelected = false;
+		trapSelected = false;
+
 	}// GEN-LAST:event_blueGemMouseClicked
 
 	private void greenGemMouseClicked(java.awt.event.MouseEvent evt) {// GEN-FIRST:event_greenGemMouseClicked
@@ -7580,7 +7631,99 @@ public class Canvas extends javax.swing.JFrame {
 				"/grafix/store/notselected/blue.jpg")));
 		greenGem.setIcon(new javax.swing.ImageIcon(getClass().getResource(
 				"/grafix/store/selected/green.jpg")));
+		jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+		jLabel5.setForeground(new java.awt.Color(255, 255, 255));
+		
+		towerSelected = false;
+		trapSelected = false;
+
 	}// GEN-LAST:event_greenGemMouseClicked
+	
+	private void towerMouseClicked(java.awt.event.MouseEvent evt) {
+		
+		redGem.setIcon(new javax.swing.ImageIcon(getClass().getResource(
+				"/grafix/store/notselected/red.jpg")));
+		purpleGem.setIcon(new javax.swing.ImageIcon(getClass().getResource(
+				"/grafix/store/notselected/purple.jpg")));
+		pinkGem.setIcon(new javax.swing.ImageIcon(getClass().getResource(
+				"/grafix/store/notselected/pink.jpg")));
+		yellowGem.setIcon(new javax.swing.ImageIcon(getClass().getResource(
+				"/grafix/store/notselected/yellow.jpg")));
+		blueGem.setIcon(new javax.swing.ImageIcon(getClass().getResource(
+				"/grafix/store/notselected/blue.jpg")));
+		greenGem.setIcon(new javax.swing.ImageIcon(getClass().getResource(
+				"/grafix/store/notselected/green.jpg")));
+		jLabel4.setForeground(new java.awt.Color(255, 0, 0));
+		jLabel5.setForeground(new java.awt.Color(255, 255, 255));
+		
+		towerSelected = true;
+		trapSelected = false;
+
+	}
+	
+	private void trapMouseClicked(java.awt.event.MouseEvent evt) {
+		
+		redGem.setIcon(new javax.swing.ImageIcon(getClass().getResource(
+				"/grafix/store/notselected/red.jpg")));
+		purpleGem.setIcon(new javax.swing.ImageIcon(getClass().getResource(
+				"/grafix/store/notselected/purple.jpg")));
+		pinkGem.setIcon(new javax.swing.ImageIcon(getClass().getResource(
+				"/grafix/store/notselected/pink.jpg")));
+		yellowGem.setIcon(new javax.swing.ImageIcon(getClass().getResource(
+				"/grafix/store/notselected/yellow.jpg")));
+		blueGem.setIcon(new javax.swing.ImageIcon(getClass().getResource(
+				"/grafix/store/notselected/blue.jpg")));
+		greenGem.setIcon(new javax.swing.ImageIcon(getClass().getResource(
+				"/grafix/store/notselected/green.jpg")));
+		jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+		jLabel5.setForeground(new java.awt.Color(255, 0, 0));
+		
+		towerSelected = false;
+		trapSelected = true;
+
+	}
+	
+	private void field1919MouseClicked(java.awt.event.MouseEvent evt) {
+		if (map.get(0).isRoad() == false){
+			if ((towerSelected == true) && (mana >= 10)) {
+				file_name.set(0, "/grafix/field/tower/tower.jpg");
+				field1919.setIcon(new javax.swing.ImageIcon(getClass().getResource(
+						file_name.get(0)))); // NOI18N
+				mana -= 10;
+				jLabel3.setText(getManaString());
+			}
+		}
+		else{
+			if((trapSelected == true) && (mana >= 5)) {
+				file_name.set(0, "/grafix/field/trap/trap.jpg");
+				field1919.setIcon(new javax.swing.ImageIcon(getClass().getResource(
+						file_name.get(0)))); // NOI18N
+				mana -= 5;
+				jLabel3.setText(getManaString());
+			}
+		}
+	}
+	
+	private void field1918MouseClicked(java.awt.event.MouseEvent evt) {
+		if (map.get(1).isRoad() == false){
+			if ((towerSelected == true) && (mana >= 10)) {
+				file_name.set(1, "/grafix/field/tower/tower.jpg");
+				field1918.setIcon(new javax.swing.ImageIcon(getClass().getResource(
+						file_name.get(0)))); // NOI18N
+				mana -= 10;
+				jLabel3.setText(getManaString());
+			}
+		}
+		else{
+			if((trapSelected == true) && (mana >= 5)) {
+				file_name.set(1, "/grafix/field/trap/trap.jpg");
+				field1918.setIcon(new javax.swing.ImageIcon(getClass().getResource(
+						file_name.get(1)))); // NOI18N
+				mana -= 5;
+				jLabel3.setText(getManaString());
+			}
+		}
+	}
 
 	// /**
 	// * @param args the command line arguments
@@ -7646,11 +7789,19 @@ public class Canvas extends javax.swing.JFrame {
 	}
 
 	private Color selectedGem = Color.Red;
-	private int mana = 0;
+	GameMaster gamem = GameMaster.getInstance();
+	boolean towerSelected = false;
+	boolean trapSelected = false;
+	private int mana = 20;
 	private int hobbit = 0;
 	private int elf = 0;
 	private int human = 0;
 	private int dwarf = 0;
+	
+	List<Field> map = Geometry.getInstance().getMap();
+	List<String> file_name = new ArrayList<String>();
+	GameMaster gm = GameMaster.getInstance();
+	
 	// Variables declaration - do not modify//GEN-BEGIN:variables
 	private javax.swing.JLabel blueGem;
 	private javax.swing.JLabel field0101;
